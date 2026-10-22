@@ -1,0 +1,1940 @@
+﻿{
+    "schema":  1,
+    "purpose":  "Fingerprint of the shared 68ponyGT package folder, to stop vehicle archives from downgrading it",
+    "package":  "68ponygt-actionpack-std-objects",
+    "title":  "68ponyGT H145 Action Pack Common Objects - Standard",
+    "manifestVersionNote":  "All 68ponyGT packages declare 0.1.0, so the version cannot tell old from new",
+    "canonicalSource":  {
+                            "name":  "H145 ActionPack HEMS Objects v1.1",
+                            "flightsimToFile":  "https://flightsim.to/file/47913",
+                            "zipName":  "H145 ActionPack HEMS Objects v1.1_wKBAT.zip",
+                            "zipSha256":  "15c540b9e03535ee4c95974be086f90cc804b6c31c1d2b6d105e2e1763db948a",
+                            "zipBytes":  881916061,
+                            "checked":  "2026-10-14: 350 of 350 std-objects files identical to the folder installed on the author PC"
+                        },
+    "canonicalFiles":  [
+                           {
+                               "path":  "ContentInfo/68ponyGT_ActionPack_Objects_Std/license.txt",
+                               "size":  588,
+                               "sha256":  "47c40ad03cc6d193fdfd5f3d932d996efc82750e4bdd58430bf0af19f1ddc4a9"
+                           },
+                           {
+                               "path":  "ContentInfo/68ponyGT_ActionPack_Objects_Std/Thumbnail.jpg",
+                               "size":  35148,
+                               "sha256":  "247ab0aaac50de00fe49506d878437c26bc9d61c12e4a851d02c7063f053c374"
+                           },
+                           {
+                               "path":  "ContentInfo/68ponygt-actionpack-std-objects/Thumbnail.jpg",
+                               "size":  5446,
+                               "sha256":  "fae0bb02e1181cf7613e150353de737506a7734d81d4a2b4e2b131808d8a3a55"
+                           },
+                           {
+                               "path":  "hpgmission/packageObjects.objmeta",
+                               "size":  28702,
+                               "sha256":  "c8d2d7178d199f8ad33aae0fc57d8523995d73492dafffc46e6a252741a3db15"
+                           },
+                           {
+                               "path":  "layout.json",
+                               "size":  51253,
+                               "sha256":  "0137ec4149703509d789e9329095380a493060d4bbba917e4d88e18595ffce04"
+                           },
+                           {
+                               "path":  "manifest.json",
+                               "size":  339,
+                               "sha256":  "9b44b6dcd53a629e84891f8c81841b0128b056a17ce68d90f8062ed2d60afafe"
+                           },
+                           {
+                               "path":  "Object_VAR_States.pdf",
+                               "size":  404907,
+                               "sha256":  "019457dc9a0cc9cf7f08d3406c513893e2b99972fa7d5d26e20456cd21174c7a"
+                           },
+                           {
+                               "path":  "Simobjects/Airplanes/68ponyGT_30WestBike/aircraft.cfg",
+                               "size":  3920,
+                               "sha256":  "c700458c1c6537985ef73c6189e1de9e4065852c25c1516fbe9bba099e178cfa"
+                           },
+                           {
+                               "path":  "Simobjects/Airplanes/68ponyGT_30WestBike/Approach.flt",
+                               "size":  3301,
+                               "sha256":  "c82ac7a5d48538957a06a9834029e1ac5ae8f09f5ec3826d259fabf64220a6e5"
+                           },
+                           {
+                               "path":  "Simobjects/Airplanes/68ponyGT_30WestBike/apron.FLT",
+                               "size":  3360,
+                               "sha256":  "af7d132fe0d32bc385afff8fcaa7439aedb73b409b4b9bb57fe48d8182ee9d64"
+                           },
+                           {
+                               "path":  "Simobjects/Airplanes/68ponyGT_30WestBike/cameras.cfg",
+                               "size":  24815,
+                               "sha256":  "0045ad7013905bbbc91f65ce10081d2c60f1b3ba959da7b8cbcef9abf61ef9ff"
+                           },
+                           {
+                               "path":  "Simobjects/Airplanes/68ponyGT_30WestBike/climb.FLT",
+                               "size":  3303,
+                               "sha256":  "5274cc47f655b7437c5ed8cf70afbae2aa46b67415475440d015825daefb68b8"
+                           },
+                           {
+                               "path":  "Simobjects/Airplanes/68ponyGT_30WestBike/cockpit.cfg",
+                               "size":  4372,
+                               "sha256":  "1a2dd5c55de9bff3da62555df64c47d6e2572d80e1424aa3f64e1f3b4696f109"
+                           },
+                           {
+                               "path":  "Simobjects/Airplanes/68ponyGT_30WestBike/Cruise.flt",
+                               "size":  3298,
+                               "sha256":  "41a181a6f142dbf32e1a54361e30ded0f97f506a9f2cda0fcbc625660c4a5cca"
+                           },
+                           {
+                               "path":  "Simobjects/Airplanes/68ponyGT_30WestBike/engines.cfg",
+                               "size":  12746,
+                               "sha256":  "aacd65b44b859a85613303f8cdada38d1a0d8ffc1dc5d20cd630b62f0a1c9c12"
+                           },
+                           {
+                               "path":  "Simobjects/Airplanes/68ponyGT_30WestBike/final.FLT",
+                               "size":  3046,
+                               "sha256":  "b03fa171b0fd5b798a30a2015bb0438f545df49dbeaab7511228b44a7e046cd1"
+                           },
+                           {
+                               "path":  "Simobjects/Airplanes/68ponyGT_30WestBike/flight_model.cfg",
+                               "size":  16014,
+                               "sha256":  "85dbc59a8c16f417c9526384510d80176d901f230a50f7401cc5cd764eebfeda"
+                           },
+                           {
+                               "path":  "Simobjects/Airplanes/68ponyGT_30WestBike/gameplay.cfg",
+                               "size":  1187,
+                               "sha256":  "abebd0db3697b6c6cd0e9a4354678d9c5c28cc11df05475efe3765a40e414a65"
+                           },
+                           {
+                               "path":  "Simobjects/Airplanes/68ponyGT_30WestBike/hangar.flt",
+                               "size":  2962,
+                               "sha256":  "8dc40fcecaa553531a5bd194e9a4a550f216617c11aede7277ca6e6d5bbc4432"
+                           },
+                           {
+                               "path":  "Simobjects/Airplanes/68ponyGT_30WestBike/model.crashed1/30West_MTB_crashed_Var1.bin",
+                               "size":  811938,
+                               "sha256":  "8f482b1efd52a484ed28b44365722b82eb7a01187fed25bb2675e280a7f0f03c"
+                           },
+                           {
+                               "path":  "Simobjects/Airplanes/68ponyGT_30WestBike/model.crashed1/30West_MTB_crashed_Var1.gltf",
+                               "size":  42837,
+                               "sha256":  "021d3a85a3633d950979b937229a99db2001bd4dcc236b515e6d886b70509ed9"
+                           },
+                           {
+                               "path":  "Simobjects/Airplanes/68ponyGT_30WestBike/model.crashed1/30West_MTB_crashed_Var1.xml",
+                               "size":  191,
+                               "sha256":  "3741b3f5432d773abd01bd8da3dab96ef2745b7abce005f265538ef5907b7db3"
+                           },
+                           {
+                               "path":  "Simobjects/Airplanes/68ponyGT_30WestBike/model.crashed1/model.CFG",
+                               "size":  44,
+                               "sha256":  "287a620fa5e781aabb3abbc0a6c71322efd9184f9328871518e8ef108b986486"
+                           },
+                           {
+                               "path":  "Simobjects/Airplanes/68ponyGT_30WestBike/model.crashed2/30West_MTB_crashed_Var2.bin",
+                               "size":  799434,
+                               "sha256":  "b06a338f3269a173d476192e52b8076f49b3b2c7ac7b200fb486c246478bd18e"
+                           },
+                           {
+                               "path":  "Simobjects/Airplanes/68ponyGT_30WestBike/model.crashed2/30West_MTB_crashed_Var2.gltf",
+                               "size":  43016,
+                               "sha256":  "8da9bd5b512f30d841ae4b62966fa692ead3adbed923e04a9e93e3039f6a2f16"
+                           },
+                           {
+                               "path":  "Simobjects/Airplanes/68ponyGT_30WestBike/model.crashed2/30West_MTB_crashed_Var2.xml",
+                               "size":  192,
+                               "sha256":  "c9193384d1e6cba5a23735c5a893a9744c406b709da261d1b9ef9c533009908d"
+                           },
+                           {
+                               "path":  "Simobjects/Airplanes/68ponyGT_30WestBike/model.crashed2/model.CFG",
+                               "size":  44,
+                               "sha256":  "ecd394b37aaea183aca44d7489d29bf35d7ab28ec539c79d12aacaadab87a5a7"
+                           },
+                           {
+                               "path":  "Simobjects/Airplanes/68ponyGT_30WestBike/model/30West_Mountainbike.bin",
+                               "size":  643716,
+                               "sha256":  "f3554cb127201b9ea6afd478e53aa58e25444bf55205f67cc419c1c560c9e7db"
+                           },
+                           {
+                               "path":  "Simobjects/Airplanes/68ponyGT_30WestBike/model/30West_Mountainbike.gltf",
+                               "size":  44373,
+                               "sha256":  "256a6e50ccfcb3f60e74d078af63d30bace9dd6f3b8c74f403ad2cf08d3d6f8d"
+                           },
+                           {
+                               "path":  "Simobjects/Airplanes/68ponyGT_30WestBike/model/30West_Mountainbike.xml",
+                               "size":  188,
+                               "sha256":  "cdb4f4d77fd4232d4af30a55c2c74e03ddf621f7bef63869697f2a22bf36c536"
+                           },
+                           {
+                               "path":  "Simobjects/Airplanes/68ponyGT_30WestBike/model/model.CFG",
+                               "size":  40,
+                               "sha256":  "cddd81f472134835fe60fb2a86c35098fa71a87b77ef44660b8325f4ddb11493"
+                           },
+                           {
+                               "path":  "Simobjects/Airplanes/68ponyGT_30WestBike/panel/PANEL.CFG",
+                               "size":  143,
+                               "sha256":  "e2457db8625db506d20d48c8fc9f48635e89a94012f8d6abd8076bf284d1005a"
+                           },
+                           {
+                               "path":  "Simobjects/Airplanes/68ponyGT_30WestBike/runway.FLT",
+                               "size":  3198,
+                               "sha256":  "cb6f763bd3d9179df61366a2b0bc4463c3fb0cff95710484b93f4c2b5bc6040e"
+                           },
+                           {
+                               "path":  "Simobjects/Airplanes/68ponyGT_30WestBike/Sound/sound.xml",
+                               "size":  4904,
+                               "sha256":  "1d015076630afe7db7afc0d679caa562f28300efc57a5635cf9ab0f9e2d5af00"
+                           },
+                           {
+                               "path":  "Simobjects/Airplanes/68ponyGT_30WestBike/Soundai/soundai.xml",
+                               "size":  4904,
+                               "sha256":  "1d015076630afe7db7afc0d679caa562f28300efc57a5635cf9ab0f9e2d5af00"
+                           },
+                           {
+                               "path":  "Simobjects/Airplanes/68ponyGT_30WestBike/systems.cfg",
+                               "size":  5178,
+                               "sha256":  "0a301dbfb1f009e3e2a580261f2ec54f296e5112e45c570eeef90219c4b4f7c6"
+                           },
+                           {
+                               "path":  "Simobjects/Airplanes/68ponyGT_30WestBike/target_performance.cfg",
+                               "size":  1759,
+                               "sha256":  "55549279915cd7ddd20cbc1a39bda7036c357c2b2af05e66ccd825f5b6480a7b"
+                           },
+                           {
+                               "path":  "Simobjects/Airplanes/68ponyGT_30WestBike/taxi.FLT",
+                               "size":  2947,
+                               "sha256":  "ec77b64256edc6e4465219636abc922931e33c434d8b579ac1bc9049dcd9c7a2"
+                           },
+                           {
+                               "path":  "Simobjects/Airplanes/68ponyGT_30WestBike/texture/30WEST_MTB.PNG.DDS",
+                               "size":  5592560,
+                               "sha256":  "a55f90b07f691e3601cb042040e4ba8f32f00a5d4282a1ea4166c41c3433662c"
+                           },
+                           {
+                               "path":  "Simobjects/Airplanes/68ponyGT_30WestBike/texture/30WEST_MTB.PNG.DDS.json",
+                               "size":  119,
+                               "sha256":  "dfadda79c3b71ad0c1220a5f0e8adc48621df09d4a75cc3695e92bb44610c71b"
+                           },
+                           {
+                               "path":  "Simobjects/Airplanes/68ponyGT_30WestHumans/aircraft.cfg",
+                               "size":  9782,
+                               "sha256":  "ba6d64a20fdbaf2e5eb78ce57b0bd0ea60fb5cc2af7df76c0ade5e32e4b34d07"
+                           },
+                           {
+                               "path":  "Simobjects/Airplanes/68ponyGT_30WestHumans/Approach.flt",
+                               "size":  3301,
+                               "sha256":  "c82ac7a5d48538957a06a9834029e1ac5ae8f09f5ec3826d259fabf64220a6e5"
+                           },
+                           {
+                               "path":  "Simobjects/Airplanes/68ponyGT_30WestHumans/apron.FLT",
+                               "size":  3360,
+                               "sha256":  "af7d132fe0d32bc385afff8fcaa7439aedb73b409b4b9bb57fe48d8182ee9d64"
+                           },
+                           {
+                               "path":  "Simobjects/Airplanes/68ponyGT_30WestHumans/cameras.cfg",
+                               "size":  24815,
+                               "sha256":  "0045ad7013905bbbc91f65ce10081d2c60f1b3ba959da7b8cbcef9abf61ef9ff"
+                           },
+                           {
+                               "path":  "Simobjects/Airplanes/68ponyGT_30WestHumans/climb.FLT",
+                               "size":  3303,
+                               "sha256":  "5274cc47f655b7437c5ed8cf70afbae2aa46b67415475440d015825daefb68b8"
+                           },
+                           {
+                               "path":  "Simobjects/Airplanes/68ponyGT_30WestHumans/cockpit.cfg",
+                               "size":  4372,
+                               "sha256":  "1a2dd5c55de9bff3da62555df64c47d6e2572d80e1424aa3f64e1f3b4696f109"
+                           },
+                           {
+                               "path":  "Simobjects/Airplanes/68ponyGT_30WestHumans/Cruise.flt",
+                               "size":  3298,
+                               "sha256":  "41a181a6f142dbf32e1a54361e30ded0f97f506a9f2cda0fcbc625660c4a5cca"
+                           },
+                           {
+                               "path":  "Simobjects/Airplanes/68ponyGT_30WestHumans/engines.cfg",
+                               "size":  12746,
+                               "sha256":  "aacd65b44b859a85613303f8cdada38d1a0d8ffc1dc5d20cd630b62f0a1c9c12"
+                           },
+                           {
+                               "path":  "Simobjects/Airplanes/68ponyGT_30WestHumans/final.FLT",
+                               "size":  3046,
+                               "sha256":  "b03fa171b0fd5b798a30a2015bb0438f545df49dbeaab7511228b44a7e046cd1"
+                           },
+                           {
+                               "path":  "Simobjects/Airplanes/68ponyGT_30WestHumans/flight_model.cfg",
+                               "size":  16014,
+                               "sha256":  "85dbc59a8c16f417c9526384510d80176d901f230a50f7401cc5cd764eebfeda"
+                           },
+                           {
+                               "path":  "Simobjects/Airplanes/68ponyGT_30WestHumans/gameplay.cfg",
+                               "size":  1187,
+                               "sha256":  "abebd0db3697b6c6cd0e9a4354678d9c5c28cc11df05475efe3765a40e414a65"
+                           },
+                           {
+                               "path":  "Simobjects/Airplanes/68ponyGT_30WestHumans/hangar.flt",
+                               "size":  2962,
+                               "sha256":  "8dc40fcecaa553531a5bd194e9a4a550f216617c11aede7277ca6e6d5bbc4432"
+                           },
+                           {
+                               "path":  "Simobjects/Airplanes/68ponyGT_30WestHumans/model.Female_30deg/Female_30deg.bin",
+                               "size":  3330048,
+                               "sha256":  "e51b998d8c4e2b61fe66a89893f499dcc56d18768312252a4ba7cf6822e97432"
+                           },
+                           {
+                               "path":  "Simobjects/Airplanes/68ponyGT_30WestHumans/model.Female_30deg/Female_30deg.gltf",
+                               "size":  13473,
+                               "sha256":  "5e7a3a760aec9a92209a3ddf168e93cc2dde4f5125e5cc45434e4c949e674759"
+                           },
+                           {
+                               "path":  "Simobjects/Airplanes/68ponyGT_30WestHumans/model.Female_30deg/Girl_45deg.xml",
+                               "size":  192,
+                               "sha256":  "9a0f82172263b84cf89b646c169df6fb04a7ad2eb672aecc0b0204e9aeedcfc5"
+                           },
+                           {
+                               "path":  "Simobjects/Airplanes/68ponyGT_30WestHumans/model.Female_30deg/model.CFG",
+                               "size":  31,
+                               "sha256":  "2c2d58e642db94db47f9f8d2bcf721e8c60f26ff61ae9ecc758fcfc54705cb48"
+                           },
+                           {
+                               "path":  "Simobjects/Airplanes/68ponyGT_30WestHumans/model.Female_30deg_blanket/Female_30deg_blanket.bin",
+                               "size":  3561548,
+                               "sha256":  "28a136d7572830bcf62bae7f17f4c04949d4e920694a69a2655a68c8d503569d"
+                           },
+                           {
+                               "path":  "Simobjects/Airplanes/68ponyGT_30WestHumans/model.Female_30deg_blanket/Female_30deg_blanket.gltf",
+                               "size":  15700,
+                               "sha256":  "e539cd376cfc8f4b9c70a8ef7f1560028273a0eba2928d29230e849b8c5272cd"
+                           },
+                           {
+                               "path":  "Simobjects/Airplanes/68ponyGT_30WestHumans/model.Female_30deg_blanket/Girl_45deg.xml",
+                               "size":  200,
+                               "sha256":  "e9556409c73d3bca021e92e75cb4f892a79f93e1188bff7094cda2807dccd7d5"
+                           },
+                           {
+                               "path":  "Simobjects/Airplanes/68ponyGT_30WestHumans/model.Female_30deg_blanket/model.CFG",
+                               "size":  31,
+                               "sha256":  "2c2d58e642db94db47f9f8d2bcf721e8c60f26ff61ae9ecc758fcfc54705cb48"
+                           },
+                           {
+                               "path":  "Simobjects/Airplanes/68ponyGT_30WestHumans/model.Female_legs_up/Female_legs_up.bin",
+                               "size":  3328320,
+                               "sha256":  "d929935fb7481cc17c2648966c4e97e56f19625857793715cbccab4b11bbcbc6"
+                           },
+                           {
+                               "path":  "Simobjects/Airplanes/68ponyGT_30WestHumans/model.Female_legs_up/Female_legs_up.gltf",
+                               "size":  10237,
+                               "sha256":  "f208952575eb951adcc599fe43c3fbaa8208534739db8a4e08302b65528ff06d"
+                           },
+                           {
+                               "path":  "Simobjects/Airplanes/68ponyGT_30WestHumans/model.Female_legs_up/Girl.xml",
+                               "size":  194,
+                               "sha256":  "ea5fa442df8031921725ce286956fb60eef155c1c8b5384f66efc3487d02d9bd"
+                           },
+                           {
+                               "path":  "Simobjects/Airplanes/68ponyGT_30WestHumans/model.Female_legs_up/model.CFG",
+                               "size":  25,
+                               "sha256":  "8c0ee828e80d7d046a8fc66fcc9fb8aac2b8e6ec0f93c788752364ddfe46538c"
+                           },
+                           {
+                               "path":  "Simobjects/Airplanes/68ponyGT_30WestHumans/model.Female_legs_up_blanket/Female_legs_up_blanket.bin",
+                               "size":  3498204,
+                               "sha256":  "4ea7261fec27257e916ac3c4b6a14ff8be7089541ed5fa6d557f5a9b5ee3c2f4"
+                           },
+                           {
+                               "path":  "Simobjects/Airplanes/68ponyGT_30WestHumans/model.Female_legs_up_blanket/Female_legs_up_blanket.gltf",
+                               "size":  11717,
+                               "sha256":  "5760449132907cbe5c93b2743419f7ab50eadbdffc96764c82d53172a30542e7"
+                           },
+                           {
+                               "path":  "Simobjects/Airplanes/68ponyGT_30WestHumans/model.Female_legs_up_blanket/Girl.xml",
+                               "size":  202,
+                               "sha256":  "ce6734102b856e645afc981dfc06dd09e8a940be78fc1369f0aa6721840f51c4"
+                           },
+                           {
+                               "path":  "Simobjects/Airplanes/68ponyGT_30WestHumans/model.Female_legs_up_blanket/model.CFG",
+                               "size":  25,
+                               "sha256":  "8c0ee828e80d7d046a8fc66fcc9fb8aac2b8e6ec0f93c788752364ddfe46538c"
+                           },
+                           {
+                               "path":  "Simobjects/Airplanes/68ponyGT_30WestHumans/model.Female_lying/30West_Female_lying.xml",
+                               "size":  192,
+                               "sha256":  "70097b88930edba7793e1aff15c61f91bf64d248d9f02c23089d70602d1243dc"
+                           },
+                           {
+                               "path":  "Simobjects/Airplanes/68ponyGT_30WestHumans/model.Female_lying/Female_lying.bin",
+                               "size":  3748240,
+                               "sha256":  "d9a5f6455b1a8b0bb7225fbc562b13bb01883f8398751825770ac78dbe1d8f0f"
+                           },
+                           {
+                               "path":  "Simobjects/Airplanes/68ponyGT_30WestHumans/model.Female_lying/Female_lying.gltf",
+                               "size":  10216,
+                               "sha256":  "1ab63759d0a8b42ce928213ed79fa4aa074b1d573ceb772c03a4635864dc3127"
+                           },
+                           {
+                               "path":  "Simobjects/Airplanes/68ponyGT_30WestHumans/model.Female_lying/model.CFG",
+                               "size":  40,
+                               "sha256":  "2484b3fada5a8c1329293714ca532593b58f492754c56f3090e26b34e3ff126b"
+                           },
+                           {
+                               "path":  "Simobjects/Airplanes/68ponyGT_30WestHumans/model.Female_lying_blanket/30West_Female_lying.xml",
+                               "size":  200,
+                               "sha256":  "5bb0fea63115e669996558310b5589d9b1419a9c7ce9423ea507a6f027880eb0"
+                           },
+                           {
+                               "path":  "Simobjects/Airplanes/68ponyGT_30WestHumans/model.Female_lying_blanket/Female_lying_blanket.bin",
+                               "size":  3918204,
+                               "sha256":  "424bfdeee1b2bc7639e7dab73582003c162e0e0d3a23eef889414030018fed4d"
+                           },
+                           {
+                               "path":  "Simobjects/Airplanes/68ponyGT_30WestHumans/model.Female_lying_blanket/Female_lying_blanket.gltf",
+                               "size":  12626,
+                               "sha256":  "46e7b44dce724238b6601994b5a40e9620dc0cc2e132fcd3d5701acf28d159a4"
+                           },
+                           {
+                               "path":  "Simobjects/Airplanes/68ponyGT_30WestHumans/model.Female_lying_blanket/model.CFG",
+                               "size":  40,
+                               "sha256":  "2484b3fada5a8c1329293714ca532593b58f492754c56f3090e26b34e3ff126b"
+                           },
+                           {
+                               "path":  "Simobjects/Airplanes/68ponyGT_30WestHumans/model.Female_lying_blanket2/30West_Female_lying.xml",
+                               "size":  201,
+                               "sha256":  "ffe56d3798421ba14c57ced19df5072c50198bd0cbf51376c2a53ba37e040682"
+                           },
+                           {
+                               "path":  "Simobjects/Airplanes/68ponyGT_30WestHumans/model.Female_lying_blanket2/Female_lying_blanket2.bin",
+                               "size":  3868380,
+                               "sha256":  "e00e8d18917dd23f6696ea50fa808f11fcdceb102fb41a0738ce990a4b387e42"
+                           },
+                           {
+                               "path":  "Simobjects/Airplanes/68ponyGT_30WestHumans/model.Female_lying_blanket2/Female_lying_blanket2.gltf",
+                               "size":  12603,
+                               "sha256":  "c4f05275a6672b0746f686ab85babaf946163bb26e5ba25ecdcbf74437491ea0"
+                           },
+                           {
+                               "path":  "Simobjects/Airplanes/68ponyGT_30WestHumans/model.Female_lying_blanket2/model.CFG",
+                               "size":  40,
+                               "sha256":  "2484b3fada5a8c1329293714ca532593b58f492754c56f3090e26b34e3ff126b"
+                           },
+                           {
+                               "path":  "Simobjects/Airplanes/68ponyGT_30WestHumans/model.Female_lying_rescuebag/30West_Female_lying.xml",
+                               "size":  202,
+                               "sha256":  "700feb9f8125d23c50f9c34ed8eaedad8d5598519eb39ee80378eb08c8607d71"
+                           },
+                           {
+                               "path":  "Simobjects/Airplanes/68ponyGT_30WestHumans/model.Female_lying_rescuebag/Female_lying_rescuebag.bin",
+                               "size":  3786524,
+                               "sha256":  "67d816857061c9827d0acef5527109a0f0d77a75e4ad6c629987c4c6600e5c1b"
+                           },
+                           {
+                               "path":  "Simobjects/Airplanes/68ponyGT_30WestHumans/model.Female_lying_rescuebag/Female_lying_rescuebag.gltf",
+                               "size":  14758,
+                               "sha256":  "11046474d54384734b444323282eaa8109a33d63f70c82d4ddd5965be1107cbc"
+                           },
+                           {
+                               "path":  "Simobjects/Airplanes/68ponyGT_30WestHumans/model.Female_lying_rescuebag/model.CFG",
+                               "size":  40,
+                               "sha256":  "2484b3fada5a8c1329293714ca532593b58f492754c56f3090e26b34e3ff126b"
+                           },
+                           {
+                               "path":  "Simobjects/Airplanes/68ponyGT_30WestHumans/model.Female_recovery_pose/30West_girl_recoveryPose.xml",
+                               "size":  200,
+                               "sha256":  "7f3a5d3b0586101b00cecb68362fab69c099b96ff6fc2fc79e94b83025fb40d2"
+                           },
+                           {
+                               "path":  "Simobjects/Airplanes/68ponyGT_30WestHumans/model.Female_recovery_pose/Female_recovery_Pose.bin",
+                               "size":  3328408,
+                               "sha256":  "be62d20f40e17e551ac0e670bb6c10ab06dc60793a6fd66c505879d65d7983fd"
+                           },
+                           {
+                               "path":  "Simobjects/Airplanes/68ponyGT_30WestHumans/model.Female_recovery_pose/Female_recovery_Pose.gltf",
+                               "size":  11077,
+                               "sha256":  "263f30ac96073bd8a863140955e8df6c8ef267ab8be6357eeba9cddc15d2d42f"
+                           },
+                           {
+                               "path":  "Simobjects/Airplanes/68ponyGT_30WestHumans/model.Female_recovery_pose/model.CFG",
+                               "size":  45,
+                               "sha256":  "35ba78c01f8af53707abd341e2a4f1bfd1b551badf556ace009d17d1aa571945"
+                           },
+                           {
+                               "path":  "Simobjects/Airplanes/68ponyGT_30WestHumans/model.Female_recovery_pose_blanket/30West_girl_recoveryPose.xml",
+                               "size":  208,
+                               "sha256":  "5621faf0cddde1309701bfc731af2a68f837aceb2d0cfde2c8995b8f893a0fac"
+                           },
+                           {
+                               "path":  "Simobjects/Airplanes/68ponyGT_30WestHumans/model.Female_recovery_pose_blanket/Female_recovery_Pose_blanket.bin",
+                               "size":  3498372,
+                               "sha256":  "a8cc737026780f4ad97762fa113f1c58dcb78feea749d268858e43c5cc17e9fb"
+                           },
+                           {
+                               "path":  "Simobjects/Airplanes/68ponyGT_30WestHumans/model.Female_recovery_pose_blanket/Female_recovery_Pose_blanket.gltf",
+                               "size":  13317,
+                               "sha256":  "179eaa99d3a6c96ec5f2a9e43b1f5d8691e5789c1073ef225eecb4748f8ca27a"
+                           },
+                           {
+                               "path":  "Simobjects/Airplanes/68ponyGT_30WestHumans/model.Female_recovery_pose_blanket/model.CFG",
+                               "size":  45,
+                               "sha256":  "35ba78c01f8af53707abd341e2a4f1bfd1b551badf556ace009d17d1aa571945"
+                           },
+                           {
+                               "path":  "Simobjects/Airplanes/68ponyGT_30WestHumans/model.Worker_lying/30West_Worker_lying.xml",
+                               "size":  192,
+                               "sha256":  "d4bedf143b70da5299d8931581536a8d216a3009938a4d2af7b9252983c5993e"
+                           },
+                           {
+                               "path":  "Simobjects/Airplanes/68ponyGT_30WestHumans/model.Worker_lying/model.CFG",
+                               "size":  40,
+                               "sha256":  "d4846f17203b042099b48ee0c2b3b5fb8fdd849ac04cd4c61af671b0d24a348f"
+                           },
+                           {
+                               "path":  "Simobjects/Airplanes/68ponyGT_30WestHumans/model.Worker_lying/Worker_lying.bin",
+                               "size":  1509600,
+                               "sha256":  "0bd3bc6b54a6eaea1ba7ac636536d79606ef00630a4f87ad608499cf67ee8484"
+                           },
+                           {
+                               "path":  "Simobjects/Airplanes/68ponyGT_30WestHumans/model.Worker_lying/Worker_lying.gltf",
+                               "size":  3655,
+                               "sha256":  "f4451707c3988d8f9507cf9c6ea36e55a4c491a3304a611ef4eb5784f511b266"
+                           },
+                           {
+                               "path":  "Simobjects/Airplanes/68ponyGT_30WestHumans/model.Worker_sitting/30West_Worker_sitting.xml",
+                               "size":  194,
+                               "sha256":  "5d68885dea580f0fb311771d47a2d394a97f4683df900fa0d69daae54ec334cb"
+                           },
+                           {
+                               "path":  "Simobjects/Airplanes/68ponyGT_30WestHumans/model.Worker_sitting/model.CFG",
+                               "size":  42,
+                               "sha256":  "48309b4746d20b2bf551c89937153612e63482c2639a00c28f216fda3f6fff44"
+                           },
+                           {
+                               "path":  "Simobjects/Airplanes/68ponyGT_30WestHumans/model.Worker_sitting/Worker_sitting.bin",
+                               "size":  1509600,
+                               "sha256":  "7b110e358237557187e398b5d1303ef339cbf24d76fa2a3c24def4283e686c2a"
+                           },
+                           {
+                               "path":  "Simobjects/Airplanes/68ponyGT_30WestHumans/model.Worker_sitting/Worker_sitting.gltf",
+                               "size":  3558,
+                               "sha256":  "b3d425f509108fe2550336d735e4faedb698ac5e8e182130c3b0f1fab996ea28"
+                           },
+                           {
+                               "path":  "Simobjects/Airplanes/68ponyGT_30WestHumans/panel/PANEL.CFG",
+                               "size":  143,
+                               "sha256":  "e2457db8625db506d20d48c8fc9f48635e89a94012f8d6abd8076bf284d1005a"
+                           },
+                           {
+                               "path":  "Simobjects/Airplanes/68ponyGT_30WestHumans/runway.FLT",
+                               "size":  3198,
+                               "sha256":  "cb6f763bd3d9179df61366a2b0bc4463c3fb0cff95710484b93f4c2b5bc6040e"
+                           },
+                           {
+                               "path":  "Simobjects/Airplanes/68ponyGT_30WestHumans/Sound/sound.xml",
+                               "size":  4904,
+                               "sha256":  "1d015076630afe7db7afc0d679caa562f28300efc57a5635cf9ab0f9e2d5af00"
+                           },
+                           {
+                               "path":  "Simobjects/Airplanes/68ponyGT_30WestHumans/Soundai/soundai.xml",
+                               "size":  4904,
+                               "sha256":  "1d015076630afe7db7afc0d679caa562f28300efc57a5635cf9ab0f9e2d5af00"
+                           },
+                           {
+                               "path":  "Simobjects/Airplanes/68ponyGT_30WestHumans/systems.cfg",
+                               "size":  5178,
+                               "sha256":  "0a301dbfb1f009e3e2a580261f2ec54f296e5112e45c570eeef90219c4b4f7c6"
+                           },
+                           {
+                               "path":  "Simobjects/Airplanes/68ponyGT_30WestHumans/target_performance.cfg",
+                               "size":  1759,
+                               "sha256":  "55549279915cd7ddd20cbc1a39bda7036c357c2b2af05e66ccd825f5b6480a7b"
+                           },
+                           {
+                               "path":  "Simobjects/Airplanes/68ponyGT_30WestHumans/taxi.FLT",
+                               "size":  2947,
+                               "sha256":  "ec77b64256edc6e4465219636abc922931e33c434d8b579ac1bc9049dcd9c7a2"
+                           },
+                           {
+                               "path":  "Simobjects/Airplanes/68ponyGT_30WestHumans/texture/CH17_1001_DIFFUSE.PNG.DDS",
+                               "size":  11184952,
+                               "sha256":  "20e1911c5fd77d2804b23e3f26fef72bafc526a90807c782ecc3b1f1f5644178"
+                           },
+                           {
+                               "path":  "Simobjects/Airplanes/68ponyGT_30WestHumans/texture/CH17_1001_DIFFUSE.PNG.DDS.json",
+                               "size":  102,
+                               "sha256":  "262d950fc22395ce364ab2d53684bf0a29559a6249eb8ca7f87aad22255bf758"
+                           },
+                           {
+                               "path":  "Simobjects/Airplanes/68ponyGT_30WestHumans/texture/CH17_1001_NORMAL.PNG.DDS",
+                               "size":  22369776,
+                               "sha256":  "babfa3712d54b76b8c5afe6561dde10886dbe070684d41c1f2ff32fba38c414b"
+                           },
+                           {
+                               "path":  "Simobjects/Airplanes/68ponyGT_30WestHumans/texture/CH17_1001_NORMAL.PNG.DDS.json",
+                               "size":  160,
+                               "sha256":  "585a3a3b9da1f19de6c05fe8cdc7149f05696c21e7793f46a98082261608e3f8"
+                           },
+                           {
+                               "path":  "Simobjects/Airplanes/68ponyGT_30WestHumans/texture/CH17_1002_DIFFUSE.PNG.DDS",
+                               "size":  5592560,
+                               "sha256":  "7146f74dcb53fd53330384683f0f57f1cadc1f0b585bee6975dbbde2c1772958"
+                           },
+                           {
+                               "path":  "Simobjects/Airplanes/68ponyGT_30WestHumans/texture/CH17_1002_DIFFUSE.PNG.DDS.json",
+                               "size":  119,
+                               "sha256":  "14d5e699fa9ff47987c2a9909e0382c6e65b2b779abfa00a867593bfb0968944"
+                           },
+                           {
+                               "path":  "Simobjects/Airplanes/68ponyGT_30WestHumans/texture/CH17_1002_NORMAL.PNG.DDS",
+                               "size":  5592560,
+                               "sha256":  "9d4b0751b2f38bfde2d4c755e63660f7ceb45315967d6bcbf5a1ac6f19fcd059"
+                           },
+                           {
+                               "path":  "Simobjects/Airplanes/68ponyGT_30WestHumans/texture/CH17_1002_NORMAL.PNG.DDS.json",
+                               "size":  160,
+                               "sha256":  "c3a8406ec75b4361e294efc481efb43df2a51dac550bc6e260ff9b823c6f2bfd"
+                           },
+                           {
+                               "path":  "Simobjects/Airplanes/68ponyGT_30WestHumans/texture/HAIR_COLOR_TRANSPARENCY_PBR_DIFFUSE.PNG.DDS",
+                               "size":  2796368,
+                               "sha256":  "bb7d1ee5f31a9d6f09b9b3cb749dd428702b47ec55cb13f78ee25523185bcd4c"
+                           },
+                           {
+                               "path":  "Simobjects/Airplanes/68ponyGT_30WestHumans/texture/HAIR_COLOR_TRANSPARENCY_PBR_DIFFUSE.PNG.DDS.json",
+                               "size":  119,
+                               "sha256":  "2e7964c475742dfbe0ed40ffda47a969624de81baaff5b096f618eb91db5e5dc"
+                           },
+                           {
+                               "path":  "Simobjects/Airplanes/68ponyGT_30WestHumans/texture/PANTS_PBR_DIFFUSE.PNG.DDS",
+                               "size":  11184976,
+                               "sha256":  "ebf0f4882babc69c779a9ead83a1a857746e6f28020062f25b59e24c449540b8"
+                           },
+                           {
+                               "path":  "Simobjects/Airplanes/68ponyGT_30WestHumans/texture/PANTS_PBR_DIFFUSE.PNG.DDS.json",
+                               "size":  119,
+                               "sha256":  "3bae4ed5928fa18a872cbd93d7917babcb3f6d716f837f757a18761b63f0e3f3"
+                           },
+                           {
+                               "path":  "Simobjects/Airplanes/68ponyGT_30WestHumans/texture/SHOES_PBR_DIFFUSE.PNG.DDS",
+                               "size":  11184976,
+                               "sha256":  "f2c37f9c6bf66189812bf72ab17778d9e0ab6902990eb2dbbc28ce07b94ac7e6"
+                           },
+                           {
+                               "path":  "Simobjects/Airplanes/68ponyGT_30WestHumans/texture/SHOES_PBR_DIFFUSE.PNG.DDS.json",
+                               "size":  119,
+                               "sha256":  "d55e197c88e0dbd57da57647ea9d9b81ad02aeac306e8cae87d49767e0b9d73c"
+                           },
+                           {
+                               "path":  "Simobjects/Airplanes/68ponyGT_30WestHumans/texture/STD_CORNEA_L_PBR_DIFFUSE.PNG.DDS",
+                               "size":  2796344,
+                               "sha256":  "0ecf430bb90dc93a5179267a2d2ab6cecad1ddefdf90c7fbd91a8822ce3f49dd"
+                           },
+                           {
+                               "path":  "Simobjects/Airplanes/68ponyGT_30WestHumans/texture/STD_CORNEA_L_PBR_DIFFUSE.PNG.DDS.json",
+                               "size":  102,
+                               "sha256":  "fee6def37e18d2ad074b1642861d77946c0b7baf92f7758b71d5732a5c7cdf19"
+                           },
+                           {
+                               "path":  "Simobjects/Airplanes/68ponyGT_30WestHumans/texture/STD_CORNEA_R_PBR_DIFFUSE.PNG.DDS",
+                               "size":  2796344,
+                               "sha256":  "0ecf430bb90dc93a5179267a2d2ab6cecad1ddefdf90c7fbd91a8822ce3f49dd"
+                           },
+                           {
+                               "path":  "Simobjects/Airplanes/68ponyGT_30WestHumans/texture/STD_CORNEA_R_PBR_DIFFUSE.PNG.DDS.json",
+                               "size":  102,
+                               "sha256":  "a6198e2f40bd455e5cb66096d03510e25a210f555b6403c3922bbec2e42e5a56"
+                           },
+                           {
+                               "path":  "Simobjects/Airplanes/68ponyGT_30WestHumans/texture/STD_EYE_L_PBR_DIFFUSE.PNG.DDS",
+                               "size":  2796344,
+                               "sha256":  "0ecf430bb90dc93a5179267a2d2ab6cecad1ddefdf90c7fbd91a8822ce3f49dd"
+                           },
+                           {
+                               "path":  "Simobjects/Airplanes/68ponyGT_30WestHumans/texture/STD_EYE_L_PBR_DIFFUSE.PNG.DDS.json",
+                               "size":  102,
+                               "sha256":  "80dcc9216cbc79a70e4160695ef99f0aca10b39928c64da20b235f7caa2b2328"
+                           },
+                           {
+                               "path":  "Simobjects/Airplanes/68ponyGT_30WestHumans/texture/STD_EYE_R_PBR_DIFFUSE.PNG.DDS",
+                               "size":  2796344,
+                               "sha256":  "0ecf430bb90dc93a5179267a2d2ab6cecad1ddefdf90c7fbd91a8822ce3f49dd"
+                           },
+                           {
+                               "path":  "Simobjects/Airplanes/68ponyGT_30WestHumans/texture/STD_EYE_R_PBR_DIFFUSE.PNG.DDS.json",
+                               "size":  102,
+                               "sha256":  "dbc5a3c9266efe1dbfd2fe205cdbadf6c65c1070fa3202fde5c91eaad5223bdc"
+                           },
+                           {
+                               "path":  "Simobjects/Airplanes/68ponyGT_30WestHumans/texture/STD_EYELASH_PBR_DIFFUSE.PNG.DDS",
+                               "size":  5592560,
+                               "sha256":  "2a907ba7c31faf29c1800733ee9f4136498889722e58d8862ef9318522542809"
+                           },
+                           {
+                               "path":  "Simobjects/Airplanes/68ponyGT_30WestHumans/texture/STD_EYELASH_PBR_DIFFUSE.PNG.DDS.json",
+                               "size":  119,
+                               "sha256":  "c2fdf2972205b4757978d086afdbfa15a9b702fa7078bc38cb7b1cfb77aab1cc"
+                           },
+                           {
+                               "path":  "Simobjects/Airplanes/68ponyGT_30WestHumans/texture/STD_NAILS_PBR_DIFFUSE.JPG.DDS",
+                               "size":  2796344,
+                               "sha256":  "485c9d1a876174b2c402bc7874212552a96d445870939a3f7d25375af54396da"
+                           },
+                           {
+                               "path":  "Simobjects/Airplanes/68ponyGT_30WestHumans/texture/STD_NAILS_PBR_DIFFUSE.JPG.DDS.json",
+                               "size":  102,
+                               "sha256":  "3b21372e641eadcb327a23872704bd37bd1e3f943e07472136c8053fcc34e15f"
+                           },
+                           {
+                               "path":  "Simobjects/Airplanes/68ponyGT_30WestHumans/texture/STD_NAILS_PBR_DIFFUSE.PNG.DDS",
+                               "size":  2796344,
+                               "sha256":  "c021707a2cb02bacf1436ae0c5f2669f23b11846207b92d3e0b69cf9d4a02beb"
+                           },
+                           {
+                               "path":  "Simobjects/Airplanes/68ponyGT_30WestHumans/texture/STD_NAILS_PBR_DIFFUSE.PNG.DDS.json",
+                               "size":  102,
+                               "sha256":  "997b94ac546db20371440a1663a3a45c4e501d1219a586b1163524e80717e3e7"
+                           },
+                           {
+                               "path":  "Simobjects/Airplanes/68ponyGT_30WestHumans/texture/STD_SKIN_ARM_PBR_DIFFUSE.PNG.DDS",
+                               "size":  2796344,
+                               "sha256":  "b020601f73258d5aba468f5b3f4542200c21cc54b7171faac3ef2d68be677982"
+                           },
+                           {
+                               "path":  "Simobjects/Airplanes/68ponyGT_30WestHumans/texture/STD_SKIN_ARM_PBR_DIFFUSE.PNG.DDS.json",
+                               "size":  102,
+                               "sha256":  "984ef570ab29a8703679a55f30e8baa55627eedb96cc442c66f0fabda209a7a5"
+                           },
+                           {
+                               "path":  "Simobjects/Airplanes/68ponyGT_30WestHumans/texture/STD_SKIN_BODY_PBR_DIFFUSE.PNG.DDS",
+                               "size":  2796344,
+                               "sha256":  "b0d4ff20df061879d66c4912544c8d27d10e6ee0b0490e4f0118edcd1938de33"
+                           },
+                           {
+                               "path":  "Simobjects/Airplanes/68ponyGT_30WestHumans/texture/STD_SKIN_BODY_PBR_DIFFUSE.PNG.DDS.json",
+                               "size":  102,
+                               "sha256":  "e766d2ef85a14ebfe95098a3aa629979cc19179cf80c122fda3e314aec0a4db3"
+                           },
+                           {
+                               "path":  "Simobjects/Airplanes/68ponyGT_30WestHumans/texture/STD_SKIN_HEAD_PBR_DIFFUSE.PNG.DDS",
+                               "size":  11184952,
+                               "sha256":  "4fac320d27a8e662482825e92cf22bee875468175dd033ac576942c684b2a50c"
+                           },
+                           {
+                               "path":  "Simobjects/Airplanes/68ponyGT_30WestHumans/texture/STD_SKIN_HEAD_PBR_DIFFUSE.PNG.DDS.json",
+                               "size":  102,
+                               "sha256":  "45904009b26e16725546f47d470561bb4f11013bf8b8468c1d2daca6ae244339"
+                           },
+                           {
+                               "path":  "Simobjects/Airplanes/68ponyGT_30WestHumans/texture/TOP_COLOR_PBR_DIFFUSE.PNG.DDS",
+                               "size":  11184976,
+                               "sha256":  "c3802bd21f94a09f07928eb672392d3826a766a530c0f5982ef92556cdbc34a9"
+                           },
+                           {
+                               "path":  "Simobjects/Airplanes/68ponyGT_30WestHumans/texture/TOP_COLOR_PBR_DIFFUSE.PNG.DDS.json",
+                               "size":  119,
+                               "sha256":  "180e920d4047bab41865e4a02ab5d43e983acff9f35b86160e659f3bd16398bc"
+                           },
+                           {
+                               "path":  "Simobjects/Airplanes/68ponyGT_ATV1/aircraft.cfg",
+                               "size":  3793,
+                               "sha256":  "0f15012a66422d5d3ddc90944e0773216358293f5c7c832b2301c5655c46f6a1"
+                           },
+                           {
+                               "path":  "Simobjects/Airplanes/68ponyGT_ATV1/Approach.flt",
+                               "size":  3301,
+                               "sha256":  "c82ac7a5d48538957a06a9834029e1ac5ae8f09f5ec3826d259fabf64220a6e5"
+                           },
+                           {
+                               "path":  "Simobjects/Airplanes/68ponyGT_ATV1/apron.FLT",
+                               "size":  3360,
+                               "sha256":  "af7d132fe0d32bc385afff8fcaa7439aedb73b409b4b9bb57fe48d8182ee9d64"
+                           },
+                           {
+                               "path":  "Simobjects/Airplanes/68ponyGT_ATV1/cameras.cfg",
+                               "size":  24815,
+                               "sha256":  "0045ad7013905bbbc91f65ce10081d2c60f1b3ba959da7b8cbcef9abf61ef9ff"
+                           },
+                           {
+                               "path":  "Simobjects/Airplanes/68ponyGT_ATV1/climb.FLT",
+                               "size":  3303,
+                               "sha256":  "5274cc47f655b7437c5ed8cf70afbae2aa46b67415475440d015825daefb68b8"
+                           },
+                           {
+                               "path":  "Simobjects/Airplanes/68ponyGT_ATV1/cockpit.cfg",
+                               "size":  4372,
+                               "sha256":  "1a2dd5c55de9bff3da62555df64c47d6e2572d80e1424aa3f64e1f3b4696f109"
+                           },
+                           {
+                               "path":  "Simobjects/Airplanes/68ponyGT_ATV1/Cruise.flt",
+                               "size":  3298,
+                               "sha256":  "41a181a6f142dbf32e1a54361e30ded0f97f506a9f2cda0fcbc625660c4a5cca"
+                           },
+                           {
+                               "path":  "Simobjects/Airplanes/68ponyGT_ATV1/engines.cfg",
+                               "size":  12746,
+                               "sha256":  "aacd65b44b859a85613303f8cdada38d1a0d8ffc1dc5d20cd630b62f0a1c9c12"
+                           },
+                           {
+                               "path":  "Simobjects/Airplanes/68ponyGT_ATV1/final.FLT",
+                               "size":  3046,
+                               "sha256":  "b03fa171b0fd5b798a30a2015bb0438f545df49dbeaab7511228b44a7e046cd1"
+                           },
+                           {
+                               "path":  "Simobjects/Airplanes/68ponyGT_ATV1/flight_model.cfg",
+                               "size":  16014,
+                               "sha256":  "85dbc59a8c16f417c9526384510d80176d901f230a50f7401cc5cd764eebfeda"
+                           },
+                           {
+                               "path":  "Simobjects/Airplanes/68ponyGT_ATV1/gameplay.cfg",
+                               "size":  1187,
+                               "sha256":  "abebd0db3697b6c6cd0e9a4354678d9c5c28cc11df05475efe3765a40e414a65"
+                           },
+                           {
+                               "path":  "Simobjects/Airplanes/68ponyGT_ATV1/hangar.flt",
+                               "size":  2962,
+                               "sha256":  "8dc40fcecaa553531a5bd194e9a4a550f216617c11aede7277ca6e6d5bbc4432"
+                           },
+                           {
+                               "path":  "Simobjects/Airplanes/68ponyGT_ATV1/model/model.CFG",
+                               "size":  38,
+                               "sha256":  "daebb2ed661516a1f8b815593374a2d3a8e38f70c997311b0ca0242a55257aa6"
+                           },
+                           {
+                               "path":  "Simobjects/Airplanes/68ponyGT_ATV1/model/yamaha-raptor-atv.bin",
+                               "size":  5877762,
+                               "sha256":  "65165faabfa8c46e5f0f4ae82fa1b297cd705d459e87d73c4ad272b73c0da769"
+                           },
+                           {
+                               "path":  "Simobjects/Airplanes/68ponyGT_ATV1/model/yamaha-raptor-atv.gltf",
+                               "size":  10248,
+                               "sha256":  "4d1ca58eff65a9d7cd4a20d45af368d7f6f79c05e8782718c2f4f458dd77fbaa"
+                           },
+                           {
+                               "path":  "Simobjects/Airplanes/68ponyGT_ATV1/model/yamaha-raptor-atv.xml",
+                               "size":  596,
+                               "sha256":  "4cc3a3a55183383b230756cafe133d211d97f0dd1717ba92d4d6fd344cc5068a"
+                           },
+                           {
+                               "path":  "Simobjects/Airplanes/68ponyGT_ATV1/panel/PANEL.CFG",
+                               "size":  143,
+                               "sha256":  "e2457db8625db506d20d48c8fc9f48635e89a94012f8d6abd8076bf284d1005a"
+                           },
+                           {
+                               "path":  "Simobjects/Airplanes/68ponyGT_ATV1/runway.FLT",
+                               "size":  3198,
+                               "sha256":  "cb6f763bd3d9179df61366a2b0bc4463c3fb0cff95710484b93f4c2b5bc6040e"
+                           },
+                           {
+                               "path":  "Simobjects/Airplanes/68ponyGT_ATV1/Sound/sound.xml",
+                               "size":  4904,
+                               "sha256":  "1d015076630afe7db7afc0d679caa562f28300efc57a5635cf9ab0f9e2d5af00"
+                           },
+                           {
+                               "path":  "Simobjects/Airplanes/68ponyGT_ATV1/Soundai/soundai.xml",
+                               "size":  4904,
+                               "sha256":  "1d015076630afe7db7afc0d679caa562f28300efc57a5635cf9ab0f9e2d5af00"
+                           },
+                           {
+                               "path":  "Simobjects/Airplanes/68ponyGT_ATV1/systems.cfg",
+                               "size":  5178,
+                               "sha256":  "0a301dbfb1f009e3e2a580261f2ec54f296e5112e45c570eeef90219c4b4f7c6"
+                           },
+                           {
+                               "path":  "Simobjects/Airplanes/68ponyGT_ATV1/target_performance.cfg",
+                               "size":  1759,
+                               "sha256":  "55549279915cd7ddd20cbc1a39bda7036c357c2b2af05e66ccd825f5b6480a7b"
+                           },
+                           {
+                               "path":  "Simobjects/Airplanes/68ponyGT_ATV1/taxi.FLT",
+                               "size":  2947,
+                               "sha256":  "ec77b64256edc6e4465219636abc922931e33c434d8b579ac1bc9049dcd9c7a2"
+                           },
+                           {
+                               "path":  "Simobjects/Airplanes/68ponyGT_ATV1/texture.red/BASECOLOR.PNG.DDS",
+                               "size":  6992,
+                               "sha256":  "294fca269fa14fa66cd635ebb2fdb67f66ceddecf3c155383e0b6e2354a9dba5"
+                           },
+                           {
+                               "path":  "Simobjects/Airplanes/68ponyGT_ATV1/texture.red/BASECOLOR.PNG.DDS.json",
+                               "size":  102,
+                               "sha256":  "5495022b5c9bea7adec5eea27f940f1509169aa8f49c4bc54b54a2fe81b33715"
+                           },
+                           {
+                               "path":  "Simobjects/Airplanes/68ponyGT_ATV1/texture.red/texture.CFG",
+                               "size":  35,
+                               "sha256":  "7bbacceddda846bfda9c18172b411d95f35ccf79f817a2a7f165c51fc084e98e"
+                           },
+                           {
+                               "path":  "Simobjects/Airplanes/68ponyGT_ATV1/texture.yellow/BASECOLOR.PNG.DDS",
+                               "size":  6992,
+                               "sha256":  "23a7d47dbf0afe77203fc62de45a781b01cbe35d64f9c01998fd2506c5713285"
+                           },
+                           {
+                               "path":  "Simobjects/Airplanes/68ponyGT_ATV1/texture.yellow/BASECOLOR.PNG.DDS.json",
+                               "size":  102,
+                               "sha256":  "1beeacbe2cec98ee85d372a60663f3a76f823c90bf45d51e86cb7e12e9f04083"
+                           },
+                           {
+                               "path":  "Simobjects/Airplanes/68ponyGT_ATV1/texture.yellow/texture.CFG",
+                               "size":  35,
+                               "sha256":  "7bbacceddda846bfda9c18172b411d95f35ccf79f817a2a7f165c51fc084e98e"
+                           },
+                           {
+                               "path":  "Simobjects/Airplanes/68ponyGT_ATV1/texture/BASECOLOR.PNG.DDS",
+                               "size":  6992,
+                               "sha256":  "fb5a949cdf76c9c8453e9a6972cb54c95131a6473088e535683f10c0c9abde44"
+                           },
+                           {
+                               "path":  "Simobjects/Airplanes/68ponyGT_ATV1/texture/BASECOLOR.PNG.DDS.json",
+                               "size":  102,
+                               "sha256":  "d6a8fa1daa8f4a4a8182ec9f6a33f54d9b4d816b21578971f4aa7320436fb1ba"
+                           },
+                           {
+                               "path":  "Simobjects/Airplanes/68ponyGT_Beacon/ai.cfg",
+                               "size":  1444,
+                               "sha256":  "5327d3e1ebfa5af25865ab9e26688e626d142f6b6e1b544a31bb7018b9f68bbe"
+                           },
+                           {
+                               "path":  "Simobjects/Airplanes/68ponyGT_Beacon/aircraft.cfg",
+                               "size":  2198,
+                               "sha256":  "7aab7f77ceaea3f52acc2c8e2f156e3b73425af06ecc85410ff9d3066fb4d5f3"
+                           },
+                           {
+                               "path":  "Simobjects/Airplanes/68ponyGT_Beacon/animations.xml",
+                               "size":  534,
+                               "sha256":  "4c9d80b9b5e7acedf30396793ff88b3e48b0d0f6389ee39974f2006d614decac"
+                           },
+                           {
+                               "path":  "Simobjects/Airplanes/68ponyGT_Beacon/Approach.flt",
+                               "size":  3301,
+                               "sha256":  "c82ac7a5d48538957a06a9834029e1ac5ae8f09f5ec3826d259fabf64220a6e5"
+                           },
+                           {
+                               "path":  "Simobjects/Airplanes/68ponyGT_Beacon/apron.FLT",
+                               "size":  3360,
+                               "sha256":  "af7d132fe0d32bc385afff8fcaa7439aedb73b409b4b9bb57fe48d8182ee9d64"
+                           },
+                           {
+                               "path":  "Simobjects/Airplanes/68ponyGT_Beacon/cameras.cfg",
+                               "size":  24815,
+                               "sha256":  "0045ad7013905bbbc91f65ce10081d2c60f1b3ba959da7b8cbcef9abf61ef9ff"
+                           },
+                           {
+                               "path":  "Simobjects/Airplanes/68ponyGT_Beacon/climb.FLT",
+                               "size":  3303,
+                               "sha256":  "5274cc47f655b7437c5ed8cf70afbae2aa46b67415475440d015825daefb68b8"
+                           },
+                           {
+                               "path":  "Simobjects/Airplanes/68ponyGT_Beacon/cockpit.cfg",
+                               "size":  4372,
+                               "sha256":  "1a2dd5c55de9bff3da62555df64c47d6e2572d80e1424aa3f64e1f3b4696f109"
+                           },
+                           {
+                               "path":  "Simobjects/Airplanes/68ponyGT_Beacon/Cruise.flt",
+                               "size":  3298,
+                               "sha256":  "41a181a6f142dbf32e1a54361e30ded0f97f506a9f2cda0fcbc625660c4a5cca"
+                           },
+                           {
+                               "path":  "Simobjects/Airplanes/68ponyGT_Beacon/engines.cfg",
+                               "size":  12746,
+                               "sha256":  "aacd65b44b859a85613303f8cdada38d1a0d8ffc1dc5d20cd630b62f0a1c9c12"
+                           },
+                           {
+                               "path":  "Simobjects/Airplanes/68ponyGT_Beacon/final.FLT",
+                               "size":  3046,
+                               "sha256":  "b03fa171b0fd5b798a30a2015bb0438f545df49dbeaab7511228b44a7e046cd1"
+                           },
+                           {
+                               "path":  "Simobjects/Airplanes/68ponyGT_Beacon/flight_model.cfg",
+                               "size":  16014,
+                               "sha256":  "85dbc59a8c16f417c9526384510d80176d901f230a50f7401cc5cd764eebfeda"
+                           },
+                           {
+                               "path":  "Simobjects/Airplanes/68ponyGT_Beacon/gameplay.cfg",
+                               "size":  1187,
+                               "sha256":  "abebd0db3697b6c6cd0e9a4354678d9c5c28cc11df05475efe3765a40e414a65"
+                           },
+                           {
+                               "path":  "Simobjects/Airplanes/68ponyGT_Beacon/hangar.flt",
+                               "size":  2962,
+                               "sha256":  "8dc40fcecaa553531a5bd194e9a4a550f216617c11aede7277ca6e6d5bbc4432"
+                           },
+                           {
+                               "path":  "Simobjects/Airplanes/68ponyGT_Beacon/model/Beacon_30m.bin",
+                               "size":  84312,
+                               "sha256":  "281891ecf6ad69bc7ab7622ce6058c9b17717d3f33a0506de9216d5258f4358e"
+                           },
+                           {
+                               "path":  "Simobjects/Airplanes/68ponyGT_Beacon/model/Beacon_30m.gltf",
+                               "size":  8847,
+                               "sha256":  "d21f9e8757fb47a79299d8e4cdcbcd60540336acdeb0e4a17ff030ea2c632d2e"
+                           },
+                           {
+                               "path":  "Simobjects/Airplanes/68ponyGT_Beacon/model/Beacon_30m.xml",
+                               "size":  1855,
+                               "sha256":  "a1237120d4e2e4ca53a210ac6526501e083ecec24940827744c55790364208e1"
+                           },
+                           {
+                               "path":  "Simobjects/Airplanes/68ponyGT_Beacon/model/Beacon_30m_LOD1.bin",
+                               "size":  84312,
+                               "sha256":  "281891ecf6ad69bc7ab7622ce6058c9b17717d3f33a0506de9216d5258f4358e"
+                           },
+                           {
+                               "path":  "Simobjects/Airplanes/68ponyGT_Beacon/model/Beacon_30m_LOD1.gltf",
+                               "size":  8930,
+                               "sha256":  "9759a806d754e093647efabb628717b2f79173a559c1021ab7810373725718d7"
+                           },
+                           {
+                               "path":  "Simobjects/Airplanes/68ponyGT_Beacon/model/Beacon_30m_LOD2.bin",
+                               "size":  84312,
+                               "sha256":  "281891ecf6ad69bc7ab7622ce6058c9b17717d3f33a0506de9216d5258f4358e"
+                           },
+                           {
+                               "path":  "Simobjects/Airplanes/68ponyGT_Beacon/model/Beacon_30m_LOD2.gltf",
+                               "size":  8930,
+                               "sha256":  "2e2a7c4c4d841876c1a4a05c8f3de88f6cd9907008865b487b802635b36d1e8e"
+                           },
+                           {
+                               "path":  "Simobjects/Airplanes/68ponyGT_Beacon/model/Beacon_30m_LODX.bin",
+                               "size":  84312,
+                               "sha256":  "281891ecf6ad69bc7ab7622ce6058c9b17717d3f33a0506de9216d5258f4358e"
+                           },
+                           {
+                               "path":  "Simobjects/Airplanes/68ponyGT_Beacon/model/Beacon_30m_LODX.gltf",
+                               "size":  8939,
+                               "sha256":  "b0edea7e82e75e9efdee44fab314b89e9ff2ce266817e6914925d8690982486b"
+                           },
+                           {
+                               "path":  "Simobjects/Airplanes/68ponyGT_Beacon/model/model.CFG",
+                               "size":  563,
+                               "sha256":  "cf8ba91c577c748da58122f4c4b6a143c9d4cf58e6a69500d4c33d62cabad01e"
+                           },
+                           {
+                               "path":  "Simobjects/Airplanes/68ponyGT_Beacon/Panel/PANEL.CFG",
+                               "size":  143,
+                               "sha256":  "e2457db8625db506d20d48c8fc9f48635e89a94012f8d6abd8076bf284d1005a"
+                           },
+                           {
+                               "path":  "Simobjects/Airplanes/68ponyGT_Beacon/runway.FLT",
+                               "size":  3198,
+                               "sha256":  "cb6f763bd3d9179df61366a2b0bc4463c3fb0cff95710484b93f4c2b5bc6040e"
+                           },
+                           {
+                               "path":  "Simobjects/Airplanes/68ponyGT_Beacon/Sound/sound.xml",
+                               "size":  4904,
+                               "sha256":  "1d015076630afe7db7afc0d679caa562f28300efc57a5635cf9ab0f9e2d5af00"
+                           },
+                           {
+                               "path":  "Simobjects/Airplanes/68ponyGT_Beacon/systems.cfg",
+                               "size":  5178,
+                               "sha256":  "0a301dbfb1f009e3e2a580261f2ec54f296e5112e45c570eeef90219c4b4f7c6"
+                           },
+                           {
+                               "path":  "Simobjects/Airplanes/68ponyGT_Beacon/taxi.FLT",
+                               "size":  2947,
+                               "sha256":  "ec77b64256edc6e4465219636abc922931e33c434d8b579ac1bc9049dcd9c7a2"
+                           },
+                           {
+                               "path":  "Simobjects/Airplanes/68ponyGT_Beacon/texture/BASECOLOR.PNG.DDS",
+                               "size":  6992,
+                               "sha256":  "23a7d47dbf0afe77203fc62de45a781b01cbe35d64f9c01998fd2506c5713285"
+                           },
+                           {
+                               "path":  "Simobjects/Airplanes/68ponyGT_Beacon/texture/BASECOLOR.PNG.DDS.json",
+                               "size":  102,
+                               "sha256":  "c86656ee2de2d94435f745e3f073193c47a350f015b199a4f62cfc024b8d7065"
+                           },
+                           {
+                               "path":  "Simobjects/Airplanes/68ponyGT_Beacon/texture/BASECOLOR_GREEN.PNG.DDS",
+                               "size":  6992,
+                               "sha256":  "917f99cfb841e53d5d51252feadce733b4741654626b1a54d6718f57ddadc933"
+                           },
+                           {
+                               "path":  "Simobjects/Airplanes/68ponyGT_Beacon/texture/BASECOLOR_GREEN.PNG.DDS.json",
+                               "size":  102,
+                               "sha256":  "d453c0a71f59327682155754d776a8486f0b655169f8f4763076875187cdaebe"
+                           },
+                           {
+                               "path":  "Simobjects/Airplanes/68ponyGT_Beacon/texture/BASECOLOR_WHITE.PNG.DDS",
+                               "size":  6992,
+                               "sha256":  "3fa68fac8925553df0d0736f956cd19220571bc2f74cc9bb24cc5e34825d02e0"
+                           },
+                           {
+                               "path":  "Simobjects/Airplanes/68ponyGT_Beacon/texture/BASECOLOR_WHITE.PNG.DDS.json",
+                               "size":  102,
+                               "sha256":  "0f8354b34ac536939df6c6985a2fc872b3b7afdefeabc459fd2e5d8dd90fb15f"
+                           },
+                           {
+                               "path":  "Simobjects/Airplanes/68ponyGT_Beacon/texture/EMISSIVE_GREEN.PNG.DDS",
+                               "size":  6992,
+                               "sha256":  "268c21f8196f2a89933e6a8d0e00e9061948875f4febf90189e48e923e5daef2"
+                           },
+                           {
+                               "path":  "Simobjects/Airplanes/68ponyGT_Beacon/texture/EMISSIVE_GREEN.PNG.DDS.json",
+                               "size":  102,
+                               "sha256":  "54ca9793bb9e6c002fbd39609b07bdd88265e02a5de8c5d9916147806c5d9e50"
+                           },
+                           {
+                               "path":  "Simobjects/Airplanes/68ponyGT_Beacon/texture/EMISSIVE_WHITE.PNG.DDS",
+                               "size":  6992,
+                               "sha256":  "fa41893849006982ed13dd01b03e535d226a5af1364cc9d59b3ed0987fef9db4"
+                           },
+                           {
+                               "path":  "Simobjects/Airplanes/68ponyGT_Beacon/texture/EMISSIVE_WHITE.PNG.DDS.json",
+                               "size":  102,
+                               "sha256":  "4025470aacc211c86bfbbc9f588ffe33a66187ab085434f16d19ec74b7437260"
+                           },
+                           {
+                               "path":  "Simobjects/Airplanes/68ponyGT_Beacon/texture/EMISSIVE_YELLOW.PNG.DDS",
+                               "size":  6992,
+                               "sha256":  "785f4fb88a8bc53ebd30a395e8362e9a0b86b206b412882d92f5609abca9708d"
+                           },
+                           {
+                               "path":  "Simobjects/Airplanes/68ponyGT_Beacon/texture/EMISSIVE_YELLOW.PNG.DDS.json",
+                               "size":  102,
+                               "sha256":  "4082865014caa35e099a4ed7aab3523a6fc163a6c028ae446060cd06a91a4f0e"
+                           },
+                           {
+                               "path":  "Simobjects/Airplanes/68ponyGT_Fire/ai.cfg",
+                               "size":  1444,
+                               "sha256":  "5327d3e1ebfa5af25865ab9e26688e626d142f6b6e1b544a31bb7018b9f68bbe"
+                           },
+                           {
+                               "path":  "Simobjects/Airplanes/68ponyGT_Fire/aircraft.cfg",
+                               "size":  4059,
+                               "sha256":  "f48505f8ea22446a15a95d32a446f272525963e9c38ac9dee55f827180c72857"
+                           },
+                           {
+                               "path":  "Simobjects/Airplanes/68ponyGT_Fire/Approach.flt",
+                               "size":  3301,
+                               "sha256":  "c82ac7a5d48538957a06a9834029e1ac5ae8f09f5ec3826d259fabf64220a6e5"
+                           },
+                           {
+                               "path":  "Simobjects/Airplanes/68ponyGT_Fire/apron.FLT",
+                               "size":  3360,
+                               "sha256":  "af7d132fe0d32bc385afff8fcaa7439aedb73b409b4b9bb57fe48d8182ee9d64"
+                           },
+                           {
+                               "path":  "Simobjects/Airplanes/68ponyGT_Fire/cameras.cfg",
+                               "size":  24815,
+                               "sha256":  "0045ad7013905bbbc91f65ce10081d2c60f1b3ba959da7b8cbcef9abf61ef9ff"
+                           },
+                           {
+                               "path":  "Simobjects/Airplanes/68ponyGT_Fire/climb.FLT",
+                               "size":  3303,
+                               "sha256":  "5274cc47f655b7437c5ed8cf70afbae2aa46b67415475440d015825daefb68b8"
+                           },
+                           {
+                               "path":  "Simobjects/Airplanes/68ponyGT_Fire/cockpit.cfg",
+                               "size":  4372,
+                               "sha256":  "1a2dd5c55de9bff3da62555df64c47d6e2572d80e1424aa3f64e1f3b4696f109"
+                           },
+                           {
+                               "path":  "Simobjects/Airplanes/68ponyGT_Fire/Cruise.flt",
+                               "size":  3298,
+                               "sha256":  "41a181a6f142dbf32e1a54361e30ded0f97f506a9f2cda0fcbc625660c4a5cca"
+                           },
+                           {
+                               "path":  "Simobjects/Airplanes/68ponyGT_Fire/engines.cfg",
+                               "size":  12746,
+                               "sha256":  "aacd65b44b859a85613303f8cdada38d1a0d8ffc1dc5d20cd630b62f0a1c9c12"
+                           },
+                           {
+                               "path":  "Simobjects/Airplanes/68ponyGT_Fire/final.FLT",
+                               "size":  3046,
+                               "sha256":  "b03fa171b0fd5b798a30a2015bb0438f545df49dbeaab7511228b44a7e046cd1"
+                           },
+                           {
+                               "path":  "Simobjects/Airplanes/68ponyGT_Fire/flight_model.cfg",
+                               "size":  16014,
+                               "sha256":  "85dbc59a8c16f417c9526384510d80176d901f230a50f7401cc5cd764eebfeda"
+                           },
+                           {
+                               "path":  "Simobjects/Airplanes/68ponyGT_Fire/gameplay.cfg",
+                               "size":  1187,
+                               "sha256":  "abebd0db3697b6c6cd0e9a4354678d9c5c28cc11df05475efe3765a40e414a65"
+                           },
+                           {
+                               "path":  "Simobjects/Airplanes/68ponyGT_Fire/hangar.flt",
+                               "size":  2962,
+                               "sha256":  "8dc40fcecaa553531a5bd194e9a4a550f216617c11aede7277ca6e6d5bbc4432"
+                           },
+                           {
+                               "path":  "Simobjects/Airplanes/68ponyGT_Fire/model.1/FireLight1.bin",
+                               "size":  936,
+                               "sha256":  "2e0e2e1d1fdc4afb7d1e14c39593e165e40d918cfb4cfadea0c3d6a3e3da1a5d"
+                           },
+                           {
+                               "path":  "Simobjects/Airplanes/68ponyGT_Fire/model.1/FireLight1.gltf",
+                               "size":  3555,
+                               "sha256":  "f27df1b6532a801ebce04468b0f12d24fe0e72f3bdb7689cd44b0fbaabd8f8ab"
+                           },
+                           {
+                               "path":  "Simobjects/Airplanes/68ponyGT_Fire/model.1/FireLight1.xml",
+                               "size":  2146,
+                               "sha256":  "e5b469ecef668d68b3044607c1b7628fa4061f89155cad9e03a118c45e826468"
+                           },
+                           {
+                               "path":  "Simobjects/Airplanes/68ponyGT_Fire/model.1/model.CFG",
+                               "size":  563,
+                               "sha256":  "2593f6cc3567e59475d984974fbfff42b5345696f4ce94baff263552607a3fcf"
+                           },
+                           {
+                               "path":  "Simobjects/Airplanes/68ponyGT_Fire/model.100x20/Fire_100x20.gltf",
+                               "size":  1192,
+                               "sha256":  "6df9922b3ecb44f975af5f5797fed2050fd66d236be2e4d1ce17c42e35878f77"
+                           },
+                           {
+                               "path":  "Simobjects/Airplanes/68ponyGT_Fire/model.100x20/Fire100mX20m.xml",
+                               "size":  3254,
+                               "sha256":  "c5de49529fb2a17d1c6d67b990c09d57d13c5e5fffa1819c95f4e6f5642df843"
+                           },
+                           {
+                               "path":  "Simobjects/Airplanes/68ponyGT_Fire/model.100x20/model.CFG",
+                               "size":  565,
+                               "sha256":  "15ad91dd74bc47d96a3d8f076a510a9ab25ce64bf779a949f82e5c20f7ba03e2"
+                           },
+                           {
+                               "path":  "Simobjects/Airplanes/68ponyGT_Fire/model.2/FireLight2.bin",
+                               "size":  936,
+                               "sha256":  "2e0e2e1d1fdc4afb7d1e14c39593e165e40d918cfb4cfadea0c3d6a3e3da1a5d"
+                           },
+                           {
+                               "path":  "Simobjects/Airplanes/68ponyGT_Fire/model.2/FireLight2.gltf",
+                               "size":  2788,
+                               "sha256":  "b905e2eea4fc7695a4e084f6fff4f0737ae4737061ce3b9e891360a4cca4bc3d"
+                           },
+                           {
+                               "path":  "Simobjects/Airplanes/68ponyGT_Fire/model.2/FireLight2.xml",
+                               "size":  1483,
+                               "sha256":  "c009f2a36a5adeea80847f593464c762e0527d41cfe0826838985defdfc74b76"
+                           },
+                           {
+                               "path":  "Simobjects/Airplanes/68ponyGT_Fire/model.2/model.CFG",
+                               "size":  563,
+                               "sha256":  "c32a3c0c477534de45c1d665193f05ffb46abf81fd133038e356180a519f2d8a"
+                           },
+                           {
+                               "path":  "Simobjects/Airplanes/68ponyGT_Fire/Panel/PANEL.CFG",
+                               "size":  143,
+                               "sha256":  "e2457db8625db506d20d48c8fc9f48635e89a94012f8d6abd8076bf284d1005a"
+                           },
+                           {
+                               "path":  "Simobjects/Airplanes/68ponyGT_Fire/runway.FLT",
+                               "size":  3198,
+                               "sha256":  "cb6f763bd3d9179df61366a2b0bc4463c3fb0cff95710484b93f4c2b5bc6040e"
+                           },
+                           {
+                               "path":  "Simobjects/Airplanes/68ponyGT_Fire/Sound/sound.xml",
+                               "size":  4904,
+                               "sha256":  "1d015076630afe7db7afc0d679caa562f28300efc57a5635cf9ab0f9e2d5af00"
+                           },
+                           {
+                               "path":  "Simobjects/Airplanes/68ponyGT_Fire/systems.cfg",
+                               "size":  5178,
+                               "sha256":  "0a301dbfb1f009e3e2a580261f2ec54f296e5112e45c570eeef90219c4b4f7c6"
+                           },
+                           {
+                               "path":  "Simobjects/Airplanes/68ponyGT_Fire/taxi.FLT",
+                               "size":  2947,
+                               "sha256":  "ec77b64256edc6e4465219636abc922931e33c434d8b579ac1bc9049dcd9c7a2"
+                           },
+                           {
+                               "path":  "Simobjects/Airplanes/68ponyGT_GolfCart1/aircraft.cfg",
+                               "size":  2894,
+                               "sha256":  "128174352c4c2dbe9d6293c4ca04b1a231643c7b317be190c793fa80e327ac82"
+                           },
+                           {
+                               "path":  "Simobjects/Airplanes/68ponyGT_GolfCart1/Approach.flt",
+                               "size":  3301,
+                               "sha256":  "c82ac7a5d48538957a06a9834029e1ac5ae8f09f5ec3826d259fabf64220a6e5"
+                           },
+                           {
+                               "path":  "Simobjects/Airplanes/68ponyGT_GolfCart1/apron.FLT",
+                               "size":  3360,
+                               "sha256":  "af7d132fe0d32bc385afff8fcaa7439aedb73b409b4b9bb57fe48d8182ee9d64"
+                           },
+                           {
+                               "path":  "Simobjects/Airplanes/68ponyGT_GolfCart1/cameras.cfg",
+                               "size":  24815,
+                               "sha256":  "0045ad7013905bbbc91f65ce10081d2c60f1b3ba959da7b8cbcef9abf61ef9ff"
+                           },
+                           {
+                               "path":  "Simobjects/Airplanes/68ponyGT_GolfCart1/climb.FLT",
+                               "size":  3303,
+                               "sha256":  "5274cc47f655b7437c5ed8cf70afbae2aa46b67415475440d015825daefb68b8"
+                           },
+                           {
+                               "path":  "Simobjects/Airplanes/68ponyGT_GolfCart1/cockpit.cfg",
+                               "size":  4372,
+                               "sha256":  "1a2dd5c55de9bff3da62555df64c47d6e2572d80e1424aa3f64e1f3b4696f109"
+                           },
+                           {
+                               "path":  "Simobjects/Airplanes/68ponyGT_GolfCart1/Cruise.flt",
+                               "size":  3298,
+                               "sha256":  "41a181a6f142dbf32e1a54361e30ded0f97f506a9f2cda0fcbc625660c4a5cca"
+                           },
+                           {
+                               "path":  "Simobjects/Airplanes/68ponyGT_GolfCart1/engines.cfg",
+                               "size":  12746,
+                               "sha256":  "aacd65b44b859a85613303f8cdada38d1a0d8ffc1dc5d20cd630b62f0a1c9c12"
+                           },
+                           {
+                               "path":  "Simobjects/Airplanes/68ponyGT_GolfCart1/final.FLT",
+                               "size":  3046,
+                               "sha256":  "b03fa171b0fd5b798a30a2015bb0438f545df49dbeaab7511228b44a7e046cd1"
+                           },
+                           {
+                               "path":  "Simobjects/Airplanes/68ponyGT_GolfCart1/flight_model.cfg",
+                               "size":  16014,
+                               "sha256":  "85dbc59a8c16f417c9526384510d80176d901f230a50f7401cc5cd764eebfeda"
+                           },
+                           {
+                               "path":  "Simobjects/Airplanes/68ponyGT_GolfCart1/gameplay.cfg",
+                               "size":  1187,
+                               "sha256":  "abebd0db3697b6c6cd0e9a4354678d9c5c28cc11df05475efe3765a40e414a65"
+                           },
+                           {
+                               "path":  "Simobjects/Airplanes/68ponyGT_GolfCart1/hangar.flt",
+                               "size":  2962,
+                               "sha256":  "8dc40fcecaa553531a5bd194e9a4a550f216617c11aede7277ca6e6d5bbc4432"
+                           },
+                           {
+                               "path":  "Simobjects/Airplanes/68ponyGT_GolfCart1/model/GolfCart01.bin",
+                               "size":  247962,
+                               "sha256":  "fe6671502c3c9741146eb9f17394ae4dfb1ccae7b24977885f94dbdf97b32bdf"
+                           },
+                           {
+                               "path":  "Simobjects/Airplanes/68ponyGT_GolfCart1/model/GolfCart01.gltf",
+                               "size":  23690,
+                               "sha256":  "ce14cbcb007d88e49a647f69650638b707af387c2f3e7c9c46a9ac3e55bc1da1"
+                           },
+                           {
+                               "path":  "Simobjects/Airplanes/68ponyGT_GolfCart1/model/GolfCart01.xml",
+                               "size":  1488,
+                               "sha256":  "a30561e5e314db128f39fda8ee2ac0d0577c0d942ea23b27cb5ac3a30ead89c5"
+                           },
+                           {
+                               "path":  "Simobjects/Airplanes/68ponyGT_GolfCart1/model/model.CFG",
+                               "size":  31,
+                               "sha256":  "05dacd48e2ecb48643889983327bb45b89463b221a2e1e9c177c380852983148"
+                           },
+                           {
+                               "path":  "Simobjects/Airplanes/68ponyGT_GolfCart1/panel/PANEL.CFG",
+                               "size":  143,
+                               "sha256":  "e2457db8625db506d20d48c8fc9f48635e89a94012f8d6abd8076bf284d1005a"
+                           },
+                           {
+                               "path":  "Simobjects/Airplanes/68ponyGT_GolfCart1/runway.FLT",
+                               "size":  3198,
+                               "sha256":  "cb6f763bd3d9179df61366a2b0bc4463c3fb0cff95710484b93f4c2b5bc6040e"
+                           },
+                           {
+                               "path":  "Simobjects/Airplanes/68ponyGT_GolfCart1/Sound/sound.xml",
+                               "size":  4904,
+                               "sha256":  "1d015076630afe7db7afc0d679caa562f28300efc57a5635cf9ab0f9e2d5af00"
+                           },
+                           {
+                               "path":  "Simobjects/Airplanes/68ponyGT_GolfCart1/Soundai/soundai.xml",
+                               "size":  4904,
+                               "sha256":  "1d015076630afe7db7afc0d679caa562f28300efc57a5635cf9ab0f9e2d5af00"
+                           },
+                           {
+                               "path":  "Simobjects/Airplanes/68ponyGT_GolfCart1/systems.cfg",
+                               "size":  5178,
+                               "sha256":  "0a301dbfb1f009e3e2a580261f2ec54f296e5112e45c570eeef90219c4b4f7c6"
+                           },
+                           {
+                               "path":  "Simobjects/Airplanes/68ponyGT_GolfCart1/target_performance.cfg",
+                               "size":  1759,
+                               "sha256":  "55549279915cd7ddd20cbc1a39bda7036c357c2b2af05e66ccd825f5b6480a7b"
+                           },
+                           {
+                               "path":  "Simobjects/Airplanes/68ponyGT_GolfCart1/taxi.FLT",
+                               "size":  2947,
+                               "sha256":  "ec77b64256edc6e4465219636abc922931e33c434d8b579ac1bc9049dcd9c7a2"
+                           },
+                           {
+                               "path":  "Simobjects/Airplanes/68ponyGT_GolfCart1/texture/MAP 2.PNG.DDS",
+                               "size":  22369776,
+                               "sha256":  "64cd241d881a261d6facd00f152311ae1796a0d8443d82ff7b28be3e3405a5ae"
+                           },
+                           {
+                               "path":  "Simobjects/Airplanes/68ponyGT_GolfCart1/texture/MAP 2.PNG.DDS.json",
+                               "size":  119,
+                               "sha256":  "06f4a232911d4197ab364195e8a25e221351686d5df84063c6eebb43c53cb29f"
+                           },
+                           {
+                               "path":  "Simobjects/Airplanes/68ponyGT_SignalFlare/ai.cfg",
+                               "size":  1453,
+                               "sha256":  "cae9274f6018de70f94b24994daa4f2bd7560023a28bc9c3d8c5cf13e8114e98"
+                           },
+                           {
+                               "path":  "Simobjects/Airplanes/68ponyGT_SignalFlare/aircraft.cfg",
+                               "size":  2405,
+                               "sha256":  "43828577f50ba89e91cc761c86e3983d77cc37f05e094e90e705e35fca629137"
+                           },
+                           {
+                               "path":  "Simobjects/Airplanes/68ponyGT_SignalFlare/animations.xml",
+                               "size":  1163,
+                               "sha256":  "66c2547dee2c6e2d4c6258480232247b62d7444691d5d176ce1781b0ceecc20d"
+                           },
+                           {
+                               "path":  "Simobjects/Airplanes/68ponyGT_SignalFlare/Approach.flt",
+                               "size":  3301,
+                               "sha256":  "c82ac7a5d48538957a06a9834029e1ac5ae8f09f5ec3826d259fabf64220a6e5"
+                           },
+                           {
+                               "path":  "Simobjects/Airplanes/68ponyGT_SignalFlare/apron.FLT",
+                               "size":  3360,
+                               "sha256":  "af7d132fe0d32bc385afff8fcaa7439aedb73b409b4b9bb57fe48d8182ee9d64"
+                           },
+                           {
+                               "path":  "Simobjects/Airplanes/68ponyGT_SignalFlare/cameras.cfg",
+                               "size":  24840,
+                               "sha256":  "63a15849b9dec6545aa53d8a9dc717d2bed16b36b03be79486e8e405d581f6b7"
+                           },
+                           {
+                               "path":  "Simobjects/Airplanes/68ponyGT_SignalFlare/climb.FLT",
+                               "size":  3303,
+                               "sha256":  "5274cc47f655b7437c5ed8cf70afbae2aa46b67415475440d015825daefb68b8"
+                           },
+                           {
+                               "path":  "Simobjects/Airplanes/68ponyGT_SignalFlare/cockpit.cfg",
+                               "size":  5633,
+                               "sha256":  "d1e61454e5bc6a8064d29d4e3da13275d7d2b3e14830725df4b4915a6705097e"
+                           },
+                           {
+                               "path":  "Simobjects/Airplanes/68ponyGT_SignalFlare/Cruise.flt",
+                               "size":  3298,
+                               "sha256":  "41a181a6f142dbf32e1a54361e30ded0f97f506a9f2cda0fcbc625660c4a5cca"
+                           },
+                           {
+                               "path":  "Simobjects/Airplanes/68ponyGT_SignalFlare/engines.cfg",
+                               "size":  9684,
+                               "sha256":  "7f651bc067298ca708e7ea683558e86e11bdfcb81101dc5a85114f209c1663e7"
+                           },
+                           {
+                               "path":  "Simobjects/Airplanes/68ponyGT_SignalFlare/final.FLT",
+                               "size":  3046,
+                               "sha256":  "b03fa171b0fd5b798a30a2015bb0438f545df49dbeaab7511228b44a7e046cd1"
+                           },
+                           {
+                               "path":  "Simobjects/Airplanes/68ponyGT_SignalFlare/flight_model.cfg",
+                               "size":  16014,
+                               "sha256":  "85dbc59a8c16f417c9526384510d80176d901f230a50f7401cc5cd764eebfeda"
+                           },
+                           {
+                               "path":  "Simobjects/Airplanes/68ponyGT_SignalFlare/gameplay.cfg",
+                               "size":  1187,
+                               "sha256":  "abebd0db3697b6c6cd0e9a4354678d9c5c28cc11df05475efe3765a40e414a65"
+                           },
+                           {
+                               "path":  "Simobjects/Airplanes/68ponyGT_SignalFlare/hangar.flt",
+                               "size":  2962,
+                               "sha256":  "8dc40fcecaa553531a5bd194e9a4a550f216617c11aede7277ca6e6d5bbc4432"
+                           },
+                           {
+                               "path":  "Simobjects/Airplanes/68ponyGT_SignalFlare/model/model.CFG",
+                               "size":  33,
+                               "sha256":  "a2032bd9da89229a677dea094ad3f52c60aedd3ad4a0eb67c0f17ee8e4496d0a"
+                           },
+                           {
+                               "path":  "Simobjects/Airplanes/68ponyGT_SignalFlare/model/SignalFlare.bin",
+                               "size":  286520,
+                               "sha256":  "7ff1d06da458af60bae76f213472d8f16bd16df2e7d6c46f2222759581098e94"
+                           },
+                           {
+                               "path":  "Simobjects/Airplanes/68ponyGT_SignalFlare/model/SignalFlare.gltf",
+                               "size":  8013,
+                               "sha256":  "6b194cb72d77fd67e1533b7639eee0ed033cfb619c4e3a18c5d647bd098a3b48"
+                           },
+                           {
+                               "path":  "Simobjects/Airplanes/68ponyGT_SignalFlare/model/SignalFlare.xml",
+                               "size":  2186,
+                               "sha256":  "92b864cfcf790de53c8d7d82b53d26570ec1464d14598088b41d2812bf38e9a4"
+                           },
+                           {
+                               "path":  "Simobjects/Airplanes/68ponyGT_SignalFlare/model/SignalFlare_LOD0.bin",
+                               "size":  271592,
+                               "sha256":  "7e3521344528030290b734b91b1715cf77a7050a4e3c155a1c967d7edf4b21b7"
+                           },
+                           {
+                               "path":  "Simobjects/Airplanes/68ponyGT_SignalFlare/model/SignalFlare_LOD0.gltf",
+                               "size":  8643,
+                               "sha256":  "896b4bfb326986d0b22afe87d1c0a449aa4a85da50529c1dd04f97382387bb03"
+                           },
+                           {
+                               "path":  "Simobjects/Airplanes/68ponyGT_SignalFlare/model/SignalFlare_LOD1.bin",
+                               "size":  286520,
+                               "sha256":  "38a3583252baf57eedadb551d5d3f51c246beb62282993088b7f3e6321a97da9"
+                           },
+                           {
+                               "path":  "Simobjects/Airplanes/68ponyGT_SignalFlare/model/SignalFlare_LOD1.gltf",
+                               "size":  8086,
+                               "sha256":  "26be5dc4c71a55d3b97e0e8dc597384766db2397ec1637de3fbb5f41607aa5fc"
+                           },
+                           {
+                               "path":  "Simobjects/Airplanes/68ponyGT_SignalFlare/model/SignalFlare_LOD2.bin",
+                               "size":  286520,
+                               "sha256":  "8016b7e1dc6fe20ceba8642fbb5660a88a6b234ae18e8f7a6f64e3f5c5a9a088"
+                           },
+                           {
+                               "path":  "Simobjects/Airplanes/68ponyGT_SignalFlare/model/SignalFlare_LOD2.gltf",
+                               "size":  8087,
+                               "sha256":  "276dbbc542eef33297adcc6036a7a7d8d38f68d2fcd4d86ceab0ef657c634110"
+                           },
+                           {
+                               "path":  "Simobjects/Airplanes/68ponyGT_SignalFlare/model/SignalFlare_LOD3.bin",
+                               "size":  286520,
+                               "sha256":  "4c272f906a63f22491d776391cf757f6a6dd005a49bbcb748b18cc00aac8e81a"
+                           },
+                           {
+                               "path":  "Simobjects/Airplanes/68ponyGT_SignalFlare/model/SignalFlare_LOD3.gltf",
+                               "size":  8080,
+                               "sha256":  "fa80d6ba45e3a5f81e7688849cc1de68810f04fc80382200eb2edf54b5af03b4"
+                           },
+                           {
+                               "path":  "Simobjects/Airplanes/68ponyGT_SignalFlare/model/SignalFlare_LOD4.bin",
+                               "size":  271592,
+                               "sha256":  "7e3521344528030290b734b91b1715cf77a7050a4e3c155a1c967d7edf4b21b7"
+                           },
+                           {
+                               "path":  "Simobjects/Airplanes/68ponyGT_SignalFlare/model/SignalFlare_LOD4.gltf",
+                               "size":  8427,
+                               "sha256":  "dafdfda60eedaecbec1694528e208b32c9cf994f72eaa647005e24e5aacf1997"
+                           },
+                           {
+                               "path":  "Simobjects/Airplanes/68ponyGT_SignalFlare/model/SignalFlare_LOD5.bin",
+                               "size":  271592,
+                               "sha256":  "7e3521344528030290b734b91b1715cf77a7050a4e3c155a1c967d7edf4b21b7"
+                           },
+                           {
+                               "path":  "Simobjects/Airplanes/68ponyGT_SignalFlare/model/SignalFlare_LOD5.gltf",
+                               "size":  8431,
+                               "sha256":  "783889046b383dac1424e458d04b5f841150dce2d253930c5bbae708df1ad460"
+                           },
+                           {
+                               "path":  "Simobjects/Airplanes/68ponyGT_SignalFlare/Panel/PANEL.CFG",
+                               "size":  143,
+                               "sha256":  "e2457db8625db506d20d48c8fc9f48635e89a94012f8d6abd8076bf284d1005a"
+                           },
+                           {
+                               "path":  "Simobjects/Airplanes/68ponyGT_SignalFlare/runway.FLT",
+                               "size":  3198,
+                               "sha256":  "cb6f763bd3d9179df61366a2b0bc4463c3fb0cff95710484b93f4c2b5bc6040e"
+                           },
+                           {
+                               "path":  "Simobjects/Airplanes/68ponyGT_SignalFlare/Sound/sound.xml",
+                               "size":  4904,
+                               "sha256":  "1d015076630afe7db7afc0d679caa562f28300efc57a5635cf9ab0f9e2d5af00"
+                           },
+                           {
+                               "path":  "Simobjects/Airplanes/68ponyGT_SignalFlare/Soundai/soundai.xml",
+                               "size":  4904,
+                               "sha256":  "1d015076630afe7db7afc0d679caa562f28300efc57a5635cf9ab0f9e2d5af00"
+                           },
+                           {
+                               "path":  "Simobjects/Airplanes/68ponyGT_SignalFlare/systems.cfg",
+                               "size":  5353,
+                               "sha256":  "96b1ce26b4f63d04217d6b0439bcc4a437d618779dde8f09b6385ae8f9b1c4bb"
+                           },
+                           {
+                               "path":  "Simobjects/Airplanes/68ponyGT_SignalFlare/target_performance.cfg",
+                               "size":  1759,
+                               "sha256":  "55549279915cd7ddd20cbc1a39bda7036c357c2b2af05e66ccd825f5b6480a7b"
+                           },
+                           {
+                               "path":  "Simobjects/Airplanes/68ponyGT_SignalFlare/taxi.FLT",
+                               "size":  2947,
+                               "sha256":  "ec77b64256edc6e4465219636abc922931e33c434d8b579ac1bc9049dcd9c7a2"
+                           },
+                           {
+                               "path":  "Simobjects/Airplanes/68ponyGT_SignalFlare/texture/BASECOLOR_GLOSS.PNG.DDS",
+                               "size":  6992,
+                               "sha256":  "294fca269fa14fa66cd635ebb2fdb67f66ceddecf3c155383e0b6e2354a9dba5"
+                           },
+                           {
+                               "path":  "Simobjects/Airplanes/68ponyGT_SignalFlare/texture/BASECOLOR_GLOSS.PNG.DDS.json",
+                               "size":  102,
+                               "sha256":  "2263fefeeeccf13ea86c40204e2aa203a33d7484ecee835331d0c2ca69ff9f5c"
+                           },
+                           {
+                               "path":  "Simobjects/Airplanes/68ponyGT_SignalFlare/texture/MAT__BASECOLOR1.PNG.DDS",
+                               "size":  6992,
+                               "sha256":  "fa41893849006982ed13dd01b03e535d226a5af1364cc9d59b3ed0987fef9db4"
+                           },
+                           {
+                               "path":  "Simobjects/Airplanes/68ponyGT_SignalFlare/texture/MAT__BASECOLOR1.PNG.DDS.json",
+                               "size":  102,
+                               "sha256":  "8ddccbc0ac91d60a9dda32fc5758aee9fa7f076a36a5641ebcaf02fd58f3c7f2"
+                           },
+                           {
+                               "path":  "Simobjects/Airplanes/68ponyGT_SignalFlare/texture/MAT__EMISSIVE.PNG.DDS",
+                               "size":  699192,
+                               "sha256":  "08572bd3cf03d0a5f40c3cb01312094ee97717cc467c885c261bcb81eaa82f43"
+                           },
+                           {
+                               "path":  "Simobjects/Airplanes/68ponyGT_SignalFlare/texture/MAT__EMISSIVE.PNG.DDS.json",
+                               "size":  102,
+                               "sha256":  "9969255fdfdf97c75d1fec30be848cdecd6b1f759ebf98c1d08dfe55db70f2cb"
+                           },
+                           {
+                               "path":  "Simobjects/Airplanes/68ponyGT_Smoke_FX/ai.cfg",
+                               "size":  1453,
+                               "sha256":  "cae9274f6018de70f94b24994daa4f2bd7560023a28bc9c3d8c5cf13e8114e98"
+                           },
+                           {
+                               "path":  "Simobjects/Airplanes/68ponyGT_Smoke_FX/aircraft.cfg",
+                               "size":  2435,
+                               "sha256":  "357e33e5ce6622e0381e1eccc4f68e542bf8b18a57705e5012ca25b7ec4a5c99"
+                           },
+                           {
+                               "path":  "Simobjects/Airplanes/68ponyGT_Smoke_FX/Approach.flt",
+                               "size":  3301,
+                               "sha256":  "c82ac7a5d48538957a06a9834029e1ac5ae8f09f5ec3826d259fabf64220a6e5"
+                           },
+                           {
+                               "path":  "Simobjects/Airplanes/68ponyGT_Smoke_FX/apron.FLT",
+                               "size":  3360,
+                               "sha256":  "af7d132fe0d32bc385afff8fcaa7439aedb73b409b4b9bb57fe48d8182ee9d64"
+                           },
+                           {
+                               "path":  "Simobjects/Airplanes/68ponyGT_Smoke_FX/cameras.cfg",
+                               "size":  24840,
+                               "sha256":  "63a15849b9dec6545aa53d8a9dc717d2bed16b36b03be79486e8e405d581f6b7"
+                           },
+                           {
+                               "path":  "Simobjects/Airplanes/68ponyGT_Smoke_FX/climb.FLT",
+                               "size":  3303,
+                               "sha256":  "5274cc47f655b7437c5ed8cf70afbae2aa46b67415475440d015825daefb68b8"
+                           },
+                           {
+                               "path":  "Simobjects/Airplanes/68ponyGT_Smoke_FX/cockpit.cfg",
+                               "size":  5633,
+                               "sha256":  "d1e61454e5bc6a8064d29d4e3da13275d7d2b3e14830725df4b4915a6705097e"
+                           },
+                           {
+                               "path":  "Simobjects/Airplanes/68ponyGT_Smoke_FX/Cruise.flt",
+                               "size":  3298,
+                               "sha256":  "41a181a6f142dbf32e1a54361e30ded0f97f506a9f2cda0fcbc625660c4a5cca"
+                           },
+                           {
+                               "path":  "Simobjects/Airplanes/68ponyGT_Smoke_FX/engines.cfg",
+                               "size":  9684,
+                               "sha256":  "7f651bc067298ca708e7ea683558e86e11bdfcb81101dc5a85114f209c1663e7"
+                           },
+                           {
+                               "path":  "Simobjects/Airplanes/68ponyGT_Smoke_FX/final.FLT",
+                               "size":  3046,
+                               "sha256":  "b03fa171b0fd5b798a30a2015bb0438f545df49dbeaab7511228b44a7e046cd1"
+                           },
+                           {
+                               "path":  "Simobjects/Airplanes/68ponyGT_Smoke_FX/flight_model.cfg",
+                               "size":  16014,
+                               "sha256":  "85dbc59a8c16f417c9526384510d80176d901f230a50f7401cc5cd764eebfeda"
+                           },
+                           {
+                               "path":  "Simobjects/Airplanes/68ponyGT_Smoke_FX/gameplay.cfg",
+                               "size":  1187,
+                               "sha256":  "abebd0db3697b6c6cd0e9a4354678d9c5c28cc11df05475efe3765a40e414a65"
+                           },
+                           {
+                               "path":  "Simobjects/Airplanes/68ponyGT_Smoke_FX/hangar.flt",
+                               "size":  2962,
+                               "sha256":  "8dc40fcecaa553531a5bd194e9a4a550f216617c11aede7277ca6e6d5bbc4432"
+                           },
+                           {
+                               "path":  "Simobjects/Airplanes/68ponyGT_Smoke_FX/model/model.CFG",
+                               "size":  29,
+                               "sha256":  "3defe304fb0b2be5ab40c4d83198efb3428c573a49a3f852ccc078d5a9e6caac"
+                           },
+                           {
+                               "path":  "Simobjects/Airplanes/68ponyGT_Smoke_FX/model/Smoke_FX.gltf",
+                               "size":  707,
+                               "sha256":  "b5f316337757f441f29f67758a8715e35b3048badccf18e9d48ec8a58900ed5e"
+                           },
+                           {
+                               "path":  "Simobjects/Airplanes/68ponyGT_Smoke_FX/model/Smoke_FX.xml",
+                               "size":  4897,
+                               "sha256":  "f31f1bb9463751c7e29cf93a9fd5f27d0cac33815ea83d9b76bbfef8d512ade8"
+                           },
+                           {
+                               "path":  "Simobjects/Airplanes/68ponyGT_Smoke_FX/Panel/PANEL.CFG",
+                               "size":  143,
+                               "sha256":  "e2457db8625db506d20d48c8fc9f48635e89a94012f8d6abd8076bf284d1005a"
+                           },
+                           {
+                               "path":  "Simobjects/Airplanes/68ponyGT_Smoke_FX/runway.FLT",
+                               "size":  3198,
+                               "sha256":  "cb6f763bd3d9179df61366a2b0bc4463c3fb0cff95710484b93f4c2b5bc6040e"
+                           },
+                           {
+                               "path":  "Simobjects/Airplanes/68ponyGT_Smoke_FX/Sound/sound.xml",
+                               "size":  4904,
+                               "sha256":  "1d015076630afe7db7afc0d679caa562f28300efc57a5635cf9ab0f9e2d5af00"
+                           },
+                           {
+                               "path":  "Simobjects/Airplanes/68ponyGT_Smoke_FX/Soundai/soundai.xml",
+                               "size":  4904,
+                               "sha256":  "1d015076630afe7db7afc0d679caa562f28300efc57a5635cf9ab0f9e2d5af00"
+                           },
+                           {
+                               "path":  "Simobjects/Airplanes/68ponyGT_Smoke_FX/systems.cfg",
+                               "size":  5353,
+                               "sha256":  "96b1ce26b4f63d04217d6b0439bcc4a437d618779dde8f09b6385ae8f9b1c4bb"
+                           },
+                           {
+                               "path":  "Simobjects/Airplanes/68ponyGT_Smoke_FX/target_performance.cfg",
+                               "size":  1759,
+                               "sha256":  "55549279915cd7ddd20cbc1a39bda7036c357c2b2af05e66ccd825f5b6480a7b"
+                           },
+                           {
+                               "path":  "Simobjects/Airplanes/68ponyGT_Smoke_FX/taxi.FLT",
+                               "size":  2947,
+                               "sha256":  "ec77b64256edc6e4465219636abc922931e33c434d8b579ac1bc9049dcd9c7a2"
+                           },
+                           {
+                               "path":  "VisualEffectLibs/68ponyGT/Smoke_FX/EngineSmoke.spb",
+                               "size":  2714,
+                               "sha256":  "f5bd44e7ecbfeae1ec97c6027df45cfeed7ea99ca98c727344ac229d3c3c01d5"
+                           },
+                           {
+                               "path":  "VisualEffectLibs/68ponyGT/Smoke_FX/SampleEffectForHeroes.spb",
+                               "size":  6719,
+                               "sha256":  "a05581e90eabfba528ed46843f7976823db1d360e8b5f307df47d9be2bb370b5"
+                           },
+                           {
+                               "path":  "VisualEffectLibs/68ponyGT/Smoke_FX/Signal_Smoke_Orange.spb",
+                               "size":  6698,
+                               "sha256":  "a18d43b5f799d40ae8160ffd19fd7a8ab55fad51fc2e16ac0a2c086b111b0728"
+                           },
+                           {
+                               "path":  "VisualEffectLibs/68ponyGT/Smoke_FX/Smoke_FX_Black_LG.spb",
+                               "size":  2778,
+                               "sha256":  "ac296bd7bc698be9d25919fe9f141e8445b41da85cf8c506718a4330645370c5"
+                           },
+                           {
+                               "path":  "VisualEffectLibs/68ponyGT/Smoke_FX/Smoke_FX_Black_Med.spb",
+                               "size":  2707,
+                               "sha256":  "6a32593c9ace1ee954a39b3e387b1435407965a890c4558d2f03a82b458de12c"
+                           },
+                           {
+                               "path":  "VisualEffectLibs/68ponyGT/Smoke_FX/Smoke_FX_Black_SM.spb",
+                               "size":  2661,
+                               "sha256":  "1aa58a31940501033ad5027e5c9d1d312cc8aac99e3b5b76521bb3b166f81a92"
+                           },
+                           {
+                               "path":  "VisualEffectLibs/68ponyGT/Smoke_FX/Smoke_FX_Black_XL.spb",
+                               "size":  2706,
+                               "sha256":  "f7b07bea1cec5d09eb4175b88aafbad103839491d020d1ad358d1992cb1bbbd6"
+                           },
+                           {
+                               "path":  "VisualEffectLibs/68ponyGT/Smoke_FX/Smoke_FX_Grey_LG.spb",
+                               "size":  2869,
+                               "sha256":  "ebfa1c476c0ef92b7e124ac896eef7849061c24c1f1dee12d427af6971100909"
+                           },
+                           {
+                               "path":  "VisualEffectLibs/68ponyGT/Smoke_FX/Smoke_FX_Grey_MED.spb",
+                               "size":  2798,
+                               "sha256":  "05ba893a3fff2e060ceb47b5d53ac57015fe9d2f6f2f4da87d6c974edfbd55ae"
+                           },
+                           {
+                               "path":  "VisualEffectLibs/68ponyGT/Smoke_FX/Smoke_FX_Grey_XL.spb",
+                               "size":  2797,
+                               "sha256":  "9de6aa424e290decb9f89d369abd9c84b8ac62956e355b8cb5a87d8f9c323688"
+                           },
+                           {
+                               "path":  "VisualEffectLibs/68ponyGT/Smoke_FX/Smoke_FX_White_SM.spb",
+                               "size":  2494,
+                               "sha256":  "13c94a0da72d0feed6595b4f41e26c91c58ad0c2b5217f24547dd6f9f2b6bc2d"
+                           },
+                           {
+                               "path":  "VisualEffectLibs/68ponyGT/Smoke_FX/Smoke_Grey_SM.spb",
+                               "size":  3385,
+                               "sha256":  "3634f54f9d492032af6066f5d0630f46f90069d123eb0e0c39d8e5c806cc34fa"
+                           },
+                           {
+                               "path":  "VisualEffectLibs/68ponyGT/Smoke_FX/Smoke_Test1.spb",
+                               "size":  2986,
+                               "sha256":  "77d1fac47b2d8ba57c5ad92cf8a0a7d9c3ddbd95c1bd37e6e84aaaf9a79244c1"
+                           },
+                           {
+                               "path":  "VisualEffectLibs/68ponyGT/Smoke_FX/Smoke_Test2.spb",
+                               "size":  1746,
+                               "sha256":  "e8b843f8d67fe5a58fa44c3e93cf320856de53efd49e9a9bffda9bb206b65363"
+                           },
+                           {
+                               "path":  "VisualEffectLibs/68ponyGT/Smoke_FX/VisualEffectLibrary.xml",
+                               "size":  633,
+                               "sha256":  "4fa53207cf580a4ebec663cb6e70a864e516667b6fd7bf42d4d07f153b99f226"
+                           }
+                       ],
+    "olderCounterparts":  [
+                              {
+                                  "path":  "ContentInfo/68ponyGT_ActionPack_Objects_Std/license.txt",
+                                  "size":  231,
+                                  "sha256":  "dbb5008395090ba3537d15d7afb797354bdb69ec799db5dfcb6c7a5d5a4eadad",
+                                  "zipEntryDate":  "2023-01-01",
+                                  "foundIn":  [
+                                                  "DE ActionPack Vehicles v1.1",
+                                                  "NL Action Pack Vehicles v1.1",
+                                                  "UK Action Pack Vehicles v1.2",
+                                                  "US Action Pack Vehicles v1.2.1"
+                                              ]
+                              },
+                              {
+                                  "path":  "hpgmission/packageObjects.objmeta",
+                                  "size":  16404,
+                                  "sha256":  "9942b571924a6189a21d534fbd5340cf2a0e3c763c6f6ed45efe025f1784e335",
+                                  "zipEntryDate":  "2023-01-01",
+                                  "foundIn":  [
+                                                  "DE ActionPack Vehicles v1.1",
+                                                  "NL Action Pack Vehicles v1.1",
+                                                  "UK Action Pack Vehicles v1.2",
+                                                  "US Action Pack Vehicles v1.2.1"
+                                              ]
+                              },
+                              {
+                                  "path":  "layout.json",
+                                  "size":  15392,
+                                  "sha256":  "d655be507d62615c4d13a358e950d69ce2f74c05a5ba36ca3d67409aac16cef1",
+                                  "zipEntryDate":  "2023-01-12",
+                                  "foundIn":  [
+                                                  "DE ActionPack Vehicles v1.1",
+                                                  "NL Action Pack Vehicles v1.1",
+                                                  "UK Action Pack Vehicles v1.2",
+                                                  "US Action Pack Vehicles v1.2.1"
+                                              ]
+                              },
+                              {
+                                  "path":  "manifest.json",
+                                  "size":  340,
+                                  "sha256":  "98bbe225c187718f4ad520c634f779a3e3a1c8ff1d11202843bd4a8cca10d6fc",
+                                  "zipEntryDate":  "2023-01-12",
+                                  "foundIn":  [
+                                                  "DE ActionPack Vehicles v1.1",
+                                                  "NL Action Pack Vehicles v1.1",
+                                                  "UK Action Pack Vehicles v1.2",
+                                                  "US Action Pack Vehicles v1.2.1"
+                                              ]
+                              },
+                              {
+                                  "path":  "Simobjects/Airplanes/68ponyGT_SignalFlare/model/SignalFlare.xml",
+                                  "size":  2300,
+                                  "sha256":  "f8b1f057b49fdc589e936c4dfecd5c41c6a2a19e2638d654b947124254049b87",
+                                  "zipEntryDate":  "2022-10-26",
+                                  "foundIn":  [
+                                                  "DE ActionPack Vehicles v1.1",
+                                                  "NL Action Pack Vehicles v1.1",
+                                                  "UK Action Pack Vehicles v1.2",
+                                                  "US Action Pack Vehicles v1.2.1"
+                                              ]
+                              },
+                              {
+                                  "path":  "Simobjects/Airplanes/68ponyGT_SignalFlare/model/SignalFlare_LOD1.bin",
+                                  "size":  271592,
+                                  "sha256":  "7e3521344528030290b734b91b1715cf77a7050a4e3c155a1c967d7edf4b21b7",
+                                  "zipEntryDate":  "2023-01-12",
+                                  "foundIn":  [
+                                                  "DE ActionPack Vehicles v1.1",
+                                                  "NL Action Pack Vehicles v1.1",
+                                                  "UK Action Pack Vehicles v1.2",
+                                                  "US Action Pack Vehicles v1.2.1"
+                                              ]
+                              },
+                              {
+                                  "path":  "Simobjects/Airplanes/68ponyGT_SignalFlare/model/SignalFlare_LOD1.gltf",
+                                  "size":  8423,
+                                  "sha256":  "465b04dfe42cc76436f0b97b269f6f76428e5a7cbf7326b0c81443f04a3c4f9b",
+                                  "zipEntryDate":  "2023-01-12",
+                                  "foundIn":  [
+                                                  "DE ActionPack Vehicles v1.1",
+                                                  "NL Action Pack Vehicles v1.1",
+                                                  "UK Action Pack Vehicles v1.2",
+                                                  "US Action Pack Vehicles v1.2.1"
+                                              ]
+                              },
+                              {
+                                  "path":  "Simobjects/Airplanes/68ponyGT_SignalFlare/model/SignalFlare_LOD2.bin",
+                                  "size":  271592,
+                                  "sha256":  "7e3521344528030290b734b91b1715cf77a7050a4e3c155a1c967d7edf4b21b7",
+                                  "zipEntryDate":  "2023-01-12",
+                                  "foundIn":  [
+                                                  "DE ActionPack Vehicles v1.1",
+                                                  "NL Action Pack Vehicles v1.1",
+                                                  "UK Action Pack Vehicles v1.2",
+                                                  "US Action Pack Vehicles v1.2.1"
+                                              ]
+                              },
+                              {
+                                  "path":  "Simobjects/Airplanes/68ponyGT_SignalFlare/model/SignalFlare_LOD2.gltf",
+                                  "size":  8431,
+                                  "sha256":  "d52d7f96bdb1f574eccd20bb104d947e09e6d06cc6b518f71b8b1bb97f13ab82",
+                                  "zipEntryDate":  "2023-01-12",
+                                  "foundIn":  [
+                                                  "DE ActionPack Vehicles v1.1",
+                                                  "NL Action Pack Vehicles v1.1",
+                                                  "UK Action Pack Vehicles v1.2",
+                                                  "US Action Pack Vehicles v1.2.1"
+                                              ]
+                              },
+                              {
+                                  "path":  "Simobjects/Airplanes/68ponyGT_SignalFlare/model/SignalFlare_LOD3.bin",
+                                  "size":  271592,
+                                  "sha256":  "7e3521344528030290b734b91b1715cf77a7050a4e3c155a1c967d7edf4b21b7",
+                                  "zipEntryDate":  "2023-01-12",
+                                  "foundIn":  [
+                                                  "DE ActionPack Vehicles v1.1",
+                                                  "NL Action Pack Vehicles v1.1",
+                                                  "UK Action Pack Vehicles v1.2",
+                                                  "US Action Pack Vehicles v1.2.1"
+                                              ]
+                              },
+                              {
+                                  "path":  "Simobjects/Airplanes/68ponyGT_SignalFlare/model/SignalFlare_LOD3.gltf",
+                                  "size":  8454,
+                                  "sha256":  "51deae2fc2bfe226c4a69d7e8894ceb05e5cf3c7e6eea455e243f2b97a6536f2",
+                                  "zipEntryDate":  "2023-01-12",
+                                  "foundIn":  [
+                                                  "DE ActionPack Vehicles v1.1",
+                                                  "NL Action Pack Vehicles v1.1",
+                                                  "UK Action Pack Vehicles v1.2",
+                                                  "US Action Pack Vehicles v1.2.1"
+                                              ]
+                              },
+                              {
+                                  "path":  "Simobjects/Airplanes/68ponyGT_SignalFlare/texture/BASECOLOR_GLOSS.PNG.DDS.json",
+                                  "size":  102,
+                                  "sha256":  "6bd6a212535339ac4306180cdf4602c0f9b395eeb2fde4e933d08b5652ab71bf",
+                                  "zipEntryDate":  "2022-10-22",
+                                  "foundIn":  [
+                                                  "DE ActionPack Vehicles v1.1",
+                                                  "NL Action Pack Vehicles v1.1",
+                                                  "UK Action Pack Vehicles v1.2",
+                                                  "US Action Pack Vehicles v1.2.1"
+                                              ]
+                              },
+                              {
+                                  "path":  "VisualEffectLibs/68ponyGT/Smoke_FX/Smoke_Grey_SM.spb",
+                                  "size":  2749,
+                                  "sha256":  "bfa2b20a40880400bdc0f5c71fb7b290ad0de753c9fd30156767b11846650829",
+                                  "zipEntryDate":  "2023-01-12",
+                                  "foundIn":  [
+                                                  "DE ActionPack Vehicles v1.1",
+                                                  "NL Action Pack Vehicles v1.1",
+                                                  "UK Action Pack Vehicles v1.2",
+                                                  "US Action Pack Vehicles v1.2.1"
+                                              ]
+                              },
+                              {
+                                  "path":  "VisualEffectLibs/68ponyGT/Smoke_FX/VisualEffectLibrary.xml",
+                                  "size":  633,
+                                  "sha256":  "5238f225d16cd4ca0883c0679a370196b4cd995f8e09bf18b91c9697e78b3d71",
+                                  "zipEntryDate":  "2023-01-12",
+                                  "foundIn":  [
+                                                  "DE ActionPack Vehicles v1.1",
+                                                  "NL Action Pack Vehicles v1.1",
+                                                  "UK Action Pack Vehicles v1.2",
+                                                  "US Action Pack Vehicles v1.2.1"
+                                              ]
+                              }
+                          ],
+    "olderCounterpartsNote":  "Same path as a canonical file but different content; seen only in the partial copy (114 files) carried by the country vehicle archives; the 5 archives checked: IT beta 1.1 (read earlier, not re-hashed here), DE v1.1, NL v1.1, UK v1.2, US v1.2.1. Their zip entry dates (2022-10 to 2023-01) are older than the canonical ones (2023-04 to 2023-06 on the installed copy).",
+    "preserveUnlisted":  "The author installed copy also holds 23 files under Simobjects/Airplanes/Smoke_FX that are in no archive checked and not in layout.json: never delete or overwrite files that are not in canonicalFiles",
+    "suggestedRule":  "When an incoming file has the same path as a canonical file: keep the installed file if its sha256 is the canonical one; replace only if the installed sha256 is an olderCounterpart or the file is missing; an unknown installed content is kept until classified."
+}

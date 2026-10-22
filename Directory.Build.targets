@@ -1,0 +1,7 @@
+<Project>
+  <!-- These executable suites deliberately have no test-adapter dependency. -->
+  <Target Name="RequireExecutableTestRunner" BeforeTargets="VSTest"
+          Condition="'$(MSBuildProjectName)' == 'RandomEverywhereInstaller.Tests' Or '$(MSBuildProjectName)' == 'CompanionRuntime.Tests' Or '$(MSBuildProjectName)' == 'RandomEverywhereInstaller.App.Tests'">
+    <Error Text="These tests use executable harnesses. Run tools/Test-All.ps1 instead of dotnet test; no checks have run." />
+  </Target>
+</Project>

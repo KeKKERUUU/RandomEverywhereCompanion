@@ -1,0 +1,288 @@
+<UserControl x:Class="RandomEverywhereInstaller.App.CompanionOptionsView"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:local="clr-namespace:RandomEverywhereInstaller.App"
+        Background="{StaticResource Brush.Window}" Foreground="{StaticResource Brush.Text}">
+    <UserControl.Resources>
+      <DataTemplate x:Key="CatalogFilterOption"><TextBlock Foreground="{StaticResource Brush.Text}"><TextBlock.Style><Style TargetType="TextBlock"><Setter Property="Text" Value="{Binding}"/><Style.Triggers><DataTrigger Binding="{Binding}" Value=""><Setter Property="Text" Value="{Binding DataContext.L[C.Catalog.All], RelativeSource={RelativeSource AncestorType=UserControl}}"/></DataTrigger></Style.Triggers></Style></TextBlock.Style></TextBlock></DataTemplate>
+    </UserControl.Resources>
+    <Border>
+    <Grid Margin="0" UseLayoutRounding="True">
+        <Grid.RowDefinitions><RowDefinition Height="52" /><RowDefinition Height="*" /><RowDefinition Height="Auto" /></Grid.RowDefinitions>
+        <Grid>
+            <TextBlock x:Name="DetailsTitle" FontSize="20" FontWeight="SemiBold" VerticalAlignment="Center" />
+            <Button Click="CloseOptions" ContentTemplate="{StaticResource ActionLabel}" Content="{Binding L[Action.Back]}" Style="{StaticResource GhostButton}" HorizontalAlignment="Right" />
+        </Grid>
+        <Grid x:Name="OptionsPages" Grid.Row="1">
+            <local:WorldDataView x:Name="WorldDataOptions" Visibility="Collapsed"/>
+            <Grid x:Name="GeneralOptions" Visibility="Collapsed">
+                <Border Style="{StaticResource Card}" Padding="14">
+<StackPanel>
+  <TextBlock Text="{Binding SimulatorName}" FontSize="20" FontWeight="SemiBold" />
+  <TextBlock Text="{Binding CommunityPath}" Style="{StaticResource QuietText}" Margin="0,8,0,8" />
+  <TextBlock Text="{Binding Prerequisites}" Style="{StaticResource QuietText}" Margin="0,0,0,22" />
+  <TextBlock Text="{Binding L[C.Storage.Title]}" Style="{StaticResource Caption}" />
+  <Grid>
+    <Grid.ColumnDefinitions>
+      <ColumnDefinition Width="*" />
+      <ColumnDefinition Width="Auto" />
+    </Grid.ColumnDefinitions>
+    <TextBlock Text="{Binding StoragePath}" Style="{StaticResource QuietText}" VerticalAlignment="Center" Margin="0,0,18,0" />
+    <Button Grid.Column="1" ContentTemplate="{StaticResource ActionLabel}" Content="{Binding L[Action.Browse]}" Command="{Binding BrowseStorageCommand}" Style="{StaticResource SecondaryButton}" />
+  </Grid>
+  <TextBlock Text="{Binding L[C.Storage.Description]}" Style="{StaticResource QuietText}" Margin="0,10,0,18" />
+  <UniformGrid Columns="2" HorizontalAlignment="Stretch">
+    <Button ContentTemplate="{StaticResource ActionLabel}" Margin="4,3" VerticalAlignment="Stretch" VerticalContentAlignment="Center" Content="{Binding L[C.Settings.SimConnect]}" Command="{Binding ImportSimConnectCommand}" ToolTip="{Binding L[C.Settings.SimConnectHint]}" Style="{StaticResource SecondaryButton}" />
+    <Button ContentTemplate="{StaticResource ActionLabel}" Margin="4,3" VerticalAlignment="Stretch" VerticalContentAlignment="Center" Content="{Binding L[Chrome.CheckForUpdates]}" Command="{Binding CheckAppUpdateCommand}" Style="{StaticResource SecondaryButton}" />
+    <Button ContentTemplate="{StaticResource ActionLabel}" Margin="4,3" VerticalAlignment="Stretch" VerticalContentAlignment="Center" Content="{Binding L[C.Recorded.Diagnostics]}" Click="ShowDiagnostics" Style="{StaticResource SecondaryButton}" />
+    <Button ContentTemplate="{StaticResource ActionLabel}" Margin="4,3" VerticalAlignment="Stretch" VerticalContentAlignment="Center" Content="{Binding L[Chrome.OpenLogFolder]}" Command="{Binding OpenLogCommand}" Style="{StaticResource GhostButton}" />
+  </UniformGrid>
+  <TextBlock Text="{Binding L[C.Settings.Credits]}" Style="{StaticResource QuietText}" FontSize="14" Margin="0,16,0,0" />
+</StackPanel>
+                </Border>
+            </Grid>
+            <Grid x:Name="RecordedOptions" Visibility="Collapsed">
+                <Border Style="{StaticResource Card}" Padding="14" Visibility="{Binding IsRecordedMode, Converter={StaticResource BoolVisibility}}">
+<Grid Margin="4" AllowDrop="True" PreviewDragOver="RecordedDragOver" Drop="RecordedDrop">
+  <Grid.RowDefinitions>
+    <RowDefinition Height="Auto" />
+    <RowDefinition Height="Auto" />
+    <RowDefinition Height="*" />
+    <RowDefinition Height="Auto" />
+  </Grid.RowDefinitions>
+  <Grid IsEnabled="{Binding CanEditAudio}">
+    <Grid.ColumnDefinitions>
+      <ColumnDefinition Width="*" />
+      <ColumnDefinition Width="Auto" />
+      <ColumnDefinition Width="Auto" />
+      <ColumnDefinition Width="Auto" />
+    </Grid.ColumnDefinitions>
+    <ComboBox ItemsSource="{Binding RecordedPacks}" SelectedItem="{Binding RecordedPack}" DisplayMemberPath="Name" ToolTip="{Binding RecordedPack.Id}" AutomationProperties.Name="{Binding L[C.Audio.Pack]}" MinWidth="170" Margin="0,0,10,0" />
+    <Button Grid.Column="1" ContentTemplate="{StaticResource ActionLabel}" Content="{Binding L[C.Recorded.Add]}" Command="{Binding RegisterRecordedCommand}" Style="{StaticResource SecondaryButton}" Margin="0,0,8,0" />
+    <Button Grid.Column="2" ContentTemplate="{StaticResource ActionLabel}" Content="{Binding L[C.Recorded.Reload]}" Command="{Binding ReloadRecordedCommand}" Style="{StaticResource SecondaryButton}" Margin="0,0,8,0" />
+    <Button Grid.Column="3" ContentTemplate="{StaticResource ActionLabel}" Content="{Binding L[C.Recorded.Remove]}" Command="{Binding ForgetRecordedCommand}" Style="{StaticResource SecondaryButton}" />
+  </Grid>
+  <DockPanel Grid.Row="1" Margin="0,8,0,8"><TextBlock Text="{Binding L[C.Recorded.Search]}" VerticalAlignment="Center" Margin="0,0,8,0" FontSize="14"/><TextBox Text="{Binding RecordedSearch, UpdateSourceTrigger=PropertyChanged}" AutomationProperties.Name="{Binding L[C.Recorded.Search]}" ToolTip="{Binding L[C.Recorded.DropHint]}" Padding="8,4"/></DockPanel>
+  <Grid Grid.Row="2">
+    <Grid.ColumnDefinitions>
+      <ColumnDefinition Width="2*" MinWidth="280" />
+      <ColumnDefinition Width="3*" />
+    </Grid.ColumnDefinitions>
+    <StackPanel Margin="0,0,20,0" IsEnabled="{Binding CanEditAudio}">
+      <CheckBox Content="{Binding L[C.Audio.Inhibit]}" IsChecked="{Binding AudioInhibit}" FontSize="14" />
+      <CheckBox Content="{Binding L[C.Audio.FollowMission]}" IsChecked="{Binding MissionVolumes}" FontSize="14" />
+      <TextBlock Text="{Binding L[C.Audio.RecordedLevelsHint]}" Style="{StaticResource QuietText}" FontSize="14" Margin="0,10,0,16" />
+      <TextBlock Text="{Binding RecordedPack.Detail}" FontSize="14" TextWrapping="Wrap" MaxHeight="90" TextTrimming="CharacterEllipsis" ToolTip="{Binding RecordedPack.Detail}" />
+      <TextBlock Text="{Binding RecordedDiagnostics}" FontSize="13" Foreground="#E2BD7D" TextWrapping="Wrap" MaxHeight="70" TextTrimming="CharacterEllipsis" ToolTip="{Binding RecordedDiagnostics}" Margin="0,12,0,0" />
+    </StackPanel>
+    <ListBox Grid.Column="1" ItemsSource="{Binding FilteredRecordedSounds}" SelectedItem="{Binding RecordedSound}" Background="#0B1319" Foreground="#E2E9ED" BorderBrush="#43515D" HorizontalContentAlignment="Stretch" ScrollViewer.HorizontalScrollBarVisibility="Disabled" ScrollViewer.VerticalScrollBarVisibility="Auto" VirtualizingPanel.IsVirtualizing="True" VirtualizingPanel.VirtualizationMode="Recycling">
+      <ListBox.ItemTemplate>
+        <DataTemplate>
+          <Grid Margin="6,8">
+            <Grid.ColumnDefinitions>
+              <ColumnDefinition Width="Auto" />
+              <ColumnDefinition Width="*" />
+            </Grid.ColumnDefinitions>
+            <CheckBox IsChecked="{Binding Enabled}" IsEnabled="{Binding DataContext.CanEditAudio, RelativeSource={RelativeSource AncestorType=UserControl}}" AutomationProperties.Name="{Binding Variable}" VerticalAlignment="Top" Margin="0,0,10,0" />
+            <StackPanel Grid.Column="1">
+              <TextBlock Text="{Binding Variable}" FontSize="16" FontWeight="SemiBold">
+                <TextBlock.Style>
+                  <Style TargetType="TextBlock">
+                    <Setter Property="Foreground" Value="#E2E9ED" />
+                    <Style.Triggers>
+                      <DataTrigger Binding="{Binding Playable}" Value="False">
+                        <Setter Property="Foreground" Value="#E2BD7D" />
+                      </DataTrigger>
+                    </Style.Triggers>
+                  </Style>
+                </TextBlock.Style>
+              </TextBlock>
+              <TextBlock Text="{Binding Detail}" FontSize="13" Foreground="#A8B6C0" TextWrapping="Wrap" Margin="0,5,0,0" />
+            </StackPanel>
+          </Grid>
+        </DataTemplate>
+      </ListBox.ItemTemplate>
+    </ListBox>
+  </Grid>
+  <Button Grid.Row="3" ContentTemplate="{StaticResource ActionLabel}" Content="{Binding L[C.Recorded.Preview]}" Command="{Binding PreviewRecordedSoundCommand}" Style="{StaticResource PrimaryButton}" HorizontalAlignment="Right" Margin="0,12,0,0" />
+</Grid>
+                </Border>
+            </Grid>
+            <Grid x:Name="SyntheticOptions" Visibility="Collapsed">
+                <Border Style="{StaticResource Card}" Padding="14" Visibility="{Binding IsSyntheticMode, Converter={StaticResource BoolVisibility}}">
+<TabControl x:Name="SyntheticTabs" Background="#182129" BorderBrush="#43515D" Padding="10">
+  <TabItem Header="{Binding L[C.Voice.TextPack]}">
+    <Grid>
+      <Grid.RowDefinitions>
+        <RowDefinition Height="Auto" />
+        <RowDefinition Height="*" />
+        <RowDefinition Height="Auto" />
+      </Grid.RowDefinitions>
+      <Grid IsEnabled="{Binding CanEditAudio}">
+        <Grid.ColumnDefinitions><ColumnDefinition Width="*"/><ColumnDefinition Width="Auto"/></Grid.ColumnDefinitions>
+        <TextBlock Text="{Binding TextPack.Name}" FontSize="16" VerticalAlignment="Center"/>
+        <Button Grid.Column="1" ContentTemplate="{StaticResource ActionLabel}" Content="{Binding L[C.Pack.Import]}" Command="{Binding ImportPackCommand}" Style="{StaticResource SecondaryButton}"/>
+      </Grid>      <ScrollViewer Grid.Row="1" VerticalScrollBarVisibility="Auto" HorizontalScrollBarVisibility="Disabled" Margin="0,12" IsEnabled="{Binding CanEditAudio}">
+        <ItemsControl ItemsSource="{Binding Actors}">
+          <ItemsControl.ItemTemplate>
+            <DataTemplate>
+              <Grid Margin="0,5">
+                <Grid.ColumnDefinitions>
+                  <ColumnDefinition Width="155" />
+                  <ColumnDefinition Width="*" />
+                  <ColumnDefinition Width="110" />
+                  <ColumnDefinition Width="40" />
+                  <ColumnDefinition Width="110" />
+                </Grid.ColumnDefinitions>
+                <TextBlock Text="{Binding Name}" TextWrapping="Wrap" FontSize="15" VerticalAlignment="Center" />
+                <ComboBox Grid.Column="1" ItemsSource="{Binding DataContext.Voices, RelativeSource={RelativeSource AncestorType=UserControl}}" SelectedItem="{Binding Voice}" DisplayMemberPath="Name" FontSize="14" />
+                <Slider Grid.Column="2" Minimum="0.5" Maximum="3" Value="{Binding Speed, Mode=TwoWay}" Margin="12,0,8,0" VerticalAlignment="Center" AutomationProperties.Name="{Binding DataContext.L[C.Voice.Speed], RelativeSource={RelativeSource AncestorType=UserControl}}" ToolTip="{Binding DataContext.L[C.Voice.Speed], RelativeSource={RelativeSource AncestorType=UserControl}}" />
+                <TextBlock Grid.Column="3" Text="{Binding Speed, StringFormat={}{0:F1}×}" FontSize="14" VerticalAlignment="Center" />
+                <CheckBox Grid.Column="4" Content="{Binding DataContext.L[C.New.Random], RelativeSource={RelativeSource AncestorType=UserControl}}" IsChecked="{Binding Random}" Visibility="{Binding CanRandom, Converter={StaticResource BoolVisibility}}" VerticalAlignment="Center" Margin="8,0,0,0" />
+              </Grid>
+            </DataTemplate>
+          </ItemsControl.ItemTemplate>
+        </ItemsControl>
+      </ScrollViewer>
+      <TextBlock Grid.Row="2" Text="{Binding TextPack.Detail}" TextWrapping="Wrap" FontSize="14" Foreground="{StaticResource Brush.TextMuted}"/>
+    </Grid>
+  </TabItem>
+  <TabItem x:Name="OutputTab" Header="{Binding L[C.Audio.Output]}">
+    <Grid IsEnabled="{Binding CanEditAudio}">
+      <Grid.ColumnDefinitions>
+        <ColumnDefinition Width="*" />
+        <ColumnDefinition Width="*" />
+      </Grid.ColumnDefinitions>
+      <StackPanel Margin="0,0,24,0">
+        <TextBlock Text="{Binding L[C.Audio.Headset]}" Style="{StaticResource Caption}" />
+        <ComboBox ItemsSource="{Binding Devices}" SelectedItem="{Binding HeadsetDevice}" DisplayMemberPath="Name" />
+        <DockPanel Margin="0,8,0,12"><TextBlock DockPanel.Dock="Right" Text="{Binding HeadsetLevel, StringFormat={}{0}%}" Width="48" TextAlignment="Right"/><Slider AutomationProperties.Name="{Binding L[C.Audio.Headset]}" Minimum="0" Maximum="100" Value="{Binding HeadsetLevel}" /></DockPanel>
+        <TextBlock Text="{Binding L[C.Audio.External]}" Style="{StaticResource Caption}" />
+        <ComboBox ItemsSource="{Binding Devices}" SelectedItem="{Binding ExternalDevice}" DisplayMemberPath="Name" />
+        <DockPanel Margin="0,8,0,12"><TextBlock DockPanel.Dock="Right" Text="{Binding ExternalLevel, StringFormat={}{0}%}" Width="48" TextAlignment="Right"/><Slider AutomationProperties.Name="{Binding L[C.Audio.External]}" Minimum="0" Maximum="100" Value="{Binding ExternalLevel}" /></DockPanel>
+        <CheckBox Content="{Binding L[C.Audio.Inhibit]}" IsChecked="{Binding AudioInhibit}"/>
+        <CheckBox Content="{Binding L[C.Audio.FollowMission]}" IsChecked="{Binding MissionVolumes}" />
+      </StackPanel>
+      <StackPanel Grid.Column="1">
+        <TextBlock Text="{Binding L[C.Audio.Volume]}" Style="{StaticResource Caption}" />
+        <DockPanel Margin="0,8,0,12"><TextBlock DockPanel.Dock="Right" Text="{Binding SyntheticVolume, StringFormat={}{0}%}" Width="48" TextAlignment="Right"/><Slider AutomationProperties.Name="{Binding L[C.Audio.Volume]}" Minimum="0" Maximum="100" Value="{Binding SyntheticVolume}" /></DockPanel>
+        <TextBlock Text="{Binding L[C.Audio.Notify]}" Style="{StaticResource Caption}" />
+        <DockPanel Margin="0,8,0,12"><TextBlock DockPanel.Dock="Right" Text="{Binding NotifyLevel, StringFormat={}{0}%}" Width="48" TextAlignment="Right"/><Slider AutomationProperties.Name="{Binding L[C.Audio.Notify]}" Minimum="0" Maximum="100" Value="{Binding NotifyLevel}" /></DockPanel>
+        <CheckBox Content="{Binding L[C.New.CustomCallSign]}" IsChecked="{Binding CustomCallSign}" IsEnabled="{Binding CanEditAudio}"/>
+        <TextBox x:Name="CallSignEditor" Text="{Binding CallSign, UpdateSourceTrigger=PropertyChanged}" IsEnabled="{Binding CustomCallSign}" MaxLength="80"
+                 ToolTip="{Binding L[C.New.CallSign]}" AutomationProperties.Name="{Binding L[C.New.CallSign]}"/>
+      </StackPanel>
+    </Grid>
+  </TabItem>
+  <TabItem x:Name="RadioTab" Header="{Binding L[C.Radio.Title]}">
+    <Grid IsEnabled="{Binding CanEditAudio}"><Grid.ColumnDefinitions><ColumnDefinition Width="*"/><ColumnDefinition Width="24"/><ColumnDefinition Width="*"/></Grid.ColumnDefinitions>
+    <StackPanel>
+      <TextBlock Text="{Binding L[C.Radio.Quality]}" Style="{StaticResource Caption}" />
+      <ComboBox ItemsSource="{Binding RadioQualities}" SelectedItem="{Binding RadioQuality}" Margin="0,0,0,18" />
+      <TextBlock Text="{Binding L[C.Radio.Beep]}" Style="{StaticResource Caption}" />
+      <ComboBox ItemsSource="{Binding RadioBeeps}" SelectedItem="{Binding RadioBeep}" />
+      <DockPanel Margin="0,12,0,18"><TextBlock DockPanel.Dock="Right" Text="{Binding BeepLevel, StringFormat={}{0}%}" Width="48" TextAlignment="Right"/><Slider Minimum="0" Maximum="100" Value="{Binding BeepLevel}" /></DockPanel>
+    </StackPanel>
+    <StackPanel Grid.Column="2">
+      <TextBlock Text="{Binding L[C.Radio.Noise]}" Style="{StaticResource Caption}" />
+      <DockPanel Margin="0,12,0,18"><TextBlock DockPanel.Dock="Right" Text="{Binding RadioNoise, StringFormat={}{0}%}" Width="48" TextAlignment="Right"/><Slider Minimum="0" Maximum="100" Value="{Binding RadioNoise}" /></DockPanel>
+      <CheckBox x:Name="RadioTailEditor" Content="{Binding L[C.Radio.Tail]}" IsChecked="{Binding RadioTail}" />
+    </StackPanel>
+    </Grid>
+  </TabItem>
+  <TabItem Header="Piper">
+    <Grid>
+      <Grid.RowDefinitions>
+        <RowDefinition Height="Auto" />
+        <RowDefinition Height="*" />
+        <RowDefinition Height="Auto" />
+      </Grid.RowDefinitions>
+      <StackPanel>
+       <DockPanel><Button DockPanel.Dock="Right" ContentTemplate="{StaticResource ActionLabel}" Content="{Binding L[C.Voice.Catalog]}" Command="{Binding CatalogCommand}" Style="{StaticResource SecondaryButton}" Margin="12,0,0,0"/><TextBlock Text="{Binding L[C.Voice.CatalogHint]}" TextWrapping="Wrap" FontSize="14" VerticalAlignment="Center"/></DockPanel>
+       <Grid Margin="0,8,0,0" IsEnabled="{Binding CanEditAudio}"><Grid.ColumnDefinitions><ColumnDefinition Width="140"/><ColumnDefinition Width="140"/><ColumnDefinition Width="*"/><ColumnDefinition Width="180"/></Grid.ColumnDefinitions>
+        <StackPanel Margin="0,0,8,0"><TextBlock Text="{Binding L[C.Catalog.Language]}" FontSize="14"/><ComboBox ItemsSource="{Binding CatalogLanguages}" SelectedItem="{Binding CatalogLanguage}" ItemTemplate="{StaticResource CatalogFilterOption}" AutomationProperties.Name="{Binding L[C.Catalog.Language]}"/></StackPanel>
+        <StackPanel Grid.Column="1" Margin="0,0,8,0"><TextBlock Text="{Binding L[C.Catalog.Quality]}" FontSize="14"/><ComboBox ItemsSource="{Binding CatalogQualities}" SelectedItem="{Binding CatalogQuality}" ItemTemplate="{StaticResource CatalogFilterOption}" AutomationProperties.Name="{Binding L[C.Catalog.Quality]}"/></StackPanel>
+        <StackPanel Grid.Column="2" Margin="0,0,8,0"><TextBlock Text="{Binding L[C.Catalog.Search]}" FontSize="14"/><TextBox Text="{Binding CatalogSearch, UpdateSourceTrigger=PropertyChanged}" Padding="8,4" AutomationProperties.Name="{Binding L[C.Catalog.Search]}"/></StackPanel>
+        <CheckBox Grid.Column="3" Content="{Binding L[C.Catalog.InstalledOnly]}" IsChecked="{Binding CatalogInstalledOnly}" VerticalAlignment="Bottom" FontSize="14"/>
+       </Grid>
+      </StackPanel>
+      <ListBox Grid.Row="1" ItemsSource="{Binding FilteredCatalogVoices}" SelectedItem="{Binding CatalogVoice}" Background="#0B1319" Foreground="#E2E9ED" BorderBrush="#43515D" Margin="0,10" HorizontalContentAlignment="Stretch" ScrollViewer.HorizontalScrollBarVisibility="Disabled">
+        <ListBox.ItemTemplate>
+          <DataTemplate>
+            <StackPanel Margin="8,5">
+              <TextBlock Text="{Binding Name}" FontSize="15" />
+              <TextBlock Text="{Binding Detail}" FontSize="14" Foreground="#A8B6C0" TextWrapping="Wrap"/>
+            </StackPanel>
+          </DataTemplate>
+        </ListBox.ItemTemplate>
+      </ListBox>
+      <Button Grid.Row="2" ContentTemplate="{StaticResource ActionLabel}" Content="{Binding L[C.Voice.Download]}" Command="{Binding InstallVoiceCommand}" Style="{StaticResource PrimaryButton}" HorizontalAlignment="Right" />
+    </Grid>
+  </TabItem>
+  <TabItem Header="{Binding L[C.Profile.Recommended]}">
+    <StackPanel>
+      <TextBlock Text="{Binding L[C.Profile.Hint]}" TextWrapping="Wrap" FontSize="15" Margin="0,0,0,12"/>
+      <Button ContentTemplate="{StaticResource ActionLabel}" Content="{Binding L[C.Profile.Recommended]}" Command="{Binding RecommendedCommand}" Style="{StaticResource PrimaryButton}" HorizontalAlignment="Left" Margin="0,8,0,22" />
+      <Button ContentTemplate="{StaticResource ActionLabel}" Content="{Binding L[C.Profile.Import]}" Command="{Binding ImportProfileCommand}" Style="{StaticResource SecondaryButton}" HorizontalAlignment="Left" Margin="0,0,0,14" />
+      <Button ContentTemplate="{StaticResource ActionLabel}" Content="{Binding L[C.Profile.Export]}" Command="{Binding ExportProfileCommand}" Style="{StaticResource SecondaryButton}" HorizontalAlignment="Left" />
+    </StackPanel>
+  </TabItem>
+</TabControl>
+                </Border>
+            </Grid>
+            <Grid x:Name="MaintenanceOptions" Visibility="Collapsed">
+                <Border Style="{StaticResource Card}" Padding="14">
+<StackPanel>
+  <TextBlock Text="{Binding L[C.Tools.Description]}" Style="{StaticResource QuietText}" />
+  <Button ContentTemplate="{StaticResource ActionLabel}" Content="{Binding L[C.World.Title]}" Command="{Binding OpenWorldDataCommand}" Style="{StaticResource PrimaryButton}" HorizontalAlignment="Left" Margin="0,12,0,0"/>
+  <Button ContentTemplate="{StaticResource ActionLabel}" Content="{Binding L[C.Tools.Maintain]}" Command="{Binding MaintainCommand}" Style="{StaticResource SecondaryButton}" HorizontalAlignment="Left" Margin="0,18,0,30" />
+  <TextBlock Text="{Binding L[C.Tools.WorkFolder]}" Style="{StaticResource Caption}" />
+  <TextBlock Text="{Binding WorkFolderDisplay}" Style="{StaticResource QuietText}" Margin="0,0,0,16" />
+  <UniformGrid Columns="2" Width="336" HorizontalAlignment="Left">
+    <Button ContentTemplate="{StaticResource ActionLabel}" Margin="4,3" VerticalAlignment="Stretch" VerticalContentAlignment="Center" Content="{Binding L[Action.Browse]}" Command="{Binding BrowseWorkCommand}" Style="{StaticResource SecondaryButton}" />
+    <Button ContentTemplate="{StaticResource ActionLabel}" Margin="4,3" VerticalAlignment="Stretch" VerticalContentAlignment="Center" Content="{Binding L[C.Tools.Clean]}" Command="{Binding CleanDebugCommand}" Style="{StaticResource SecondaryButton}" />
+  </UniformGrid>
+</StackPanel>
+                </Border>
+            </Grid>
+            <Grid x:Name="MissionUpdateOptions" Visibility="Collapsed">
+              <Border Style="{StaticResource Card}" Padding="14"><Grid>
+                <Grid.RowDefinitions><RowDefinition Height="Auto"/><RowDefinition Height="Auto"/><RowDefinition Height="*"/><RowDefinition Height="Auto"/></Grid.RowDefinitions>
+                <TextBlock Text="{Binding MissionUpdateSummary}" FontSize="16" TextWrapping="Wrap" Margin="0,0,0,10"/>
+                <TextBlock Grid.Row="1" Text="{Binding MissionUpdateSource}" FontSize="14" TextWrapping="Wrap" Foreground="{StaticResource Brush.TextMuted}" Margin="0,0,0,10"/>
+                <TextBox Grid.Row="2" Text="{Binding MissionUpdateNotes, Mode=OneWay}" IsReadOnly="True" TextWrapping="Wrap" VerticalScrollBarVisibility="Auto" FontSize="15" AutomationProperties.Name="{Binding L[C.MissionUpdate.Notes]}"/>
+                <UniformGrid Grid.Row="3" Columns="4" Margin="0,12,0,0">
+                  <Button Margin="4,0" VerticalAlignment="Stretch" ContentTemplate="{StaticResource ActionLabel}" Content="{Binding L[C.MissionUpdate.Check]}" Command="{Binding CheckMissionUpdateCommand}" Style="{StaticResource PrimaryButton}"/>
+                  <Button Margin="4,0" VerticalAlignment="Stretch" ContentTemplate="{StaticResource ActionLabel}" Content="{Binding L[C.MissionUpdate.Download]}" Command="{Binding DownloadMissionUpdateCommand}" Style="{StaticResource SuccessButton}"/>
+                  <Button Margin="4,0" VerticalAlignment="Stretch" ContentTemplate="{StaticResource ActionLabel}" Content="{Binding L[C.MissionUpdate.Manual]}" Command="{Binding ImportMissionUpdateCommand}" Style="{StaticResource SecondaryButton}"/>
+                  <Button Margin="4,0" VerticalAlignment="Stretch" ContentTemplate="{StaticResource ActionLabel}" Content="{Binding L[Chrome.Cancel]}" Command="{Binding CancelMissionUpdateCommand}" Style="{StaticResource SecondaryButton}"/>
+                </UniformGrid>
+              </Grid></Border>
+            </Grid>
+            <Grid x:Name="DiagnosticsOptions" Visibility="Collapsed">
+                <Border Style="{StaticResource Card}" Padding="14">
+<Grid>
+  <Grid.RowDefinitions>
+    <RowDefinition Height="Auto" />
+    <RowDefinition Height="*" />
+    <RowDefinition Height="Auto" />
+  </Grid.RowDefinitions>
+  <DockPanel Margin="0,0,0,10"><TextBlock Text="{Binding L[C.Diagnostics.Severity]}" VerticalAlignment="Center" Margin="0,0,10,0"/><ComboBox ItemsSource="{Binding DiagnosticLevels}" SelectedValuePath="Id" SelectedValue="{Binding DiagnosticLevel}" DisplayMemberPath="Name" Width="220" HorizontalAlignment="Left"/></DockPanel>
+  <TextBox Grid.Row="1" Text="{Binding DiagnosticText, Mode=OneWay}" IsReadOnly="True" TextWrapping="Wrap" VerticalScrollBarVisibility="Auto" FontFamily="Consolas" FontSize="14" Background="#0B1319" Foreground="#E2E9ED" BorderBrush="#43515D" />
+  <DockPanel Grid.Row="2" Margin="0,12,0,0">
+   <Button DockPanel.Dock="Right" ContentTemplate="{StaticResource ActionLabel}" Content="{Binding L[C.Recorded.CopyLog]}" Command="{Binding CopyRuntimeLogCommand}" Style="{StaticResource SecondaryButton}"/>
+   <Button ContentTemplate="{StaticResource ActionLabel}" Content="{Binding L[C.Diagnostics.InstallerLogs]}" Command="{Binding OpenLogCommand}" Style="{StaticResource GhostButton}" HorizontalAlignment="Left"/>
+  </DockPanel>
+</Grid>
+                </Border>
+            </Grid>
+        </Grid>
+        <StackPanel Grid.Row="2" Margin="0,8,180,0" VerticalAlignment="Center" Visibility="{Binding Visibility, ElementName=SaveAudioButton}">
+            <TextBlock Text="{Binding AudioEditsStatus}" TextWrapping="Wrap" FontSize="14"><TextBlock.Style><Style TargetType="TextBlock"><Setter Property="Foreground" Value="{StaticResource Brush.Success}"/><Style.Triggers><DataTrigger Binding="{Binding HasPendingAudioEdits}" Value="True"><Setter Property="Foreground" Value="#E2BD7D"/></DataTrigger></Style.Triggers></Style></TextBlock.Style></TextBlock>
+            <TextBlock Text="{Binding AudioEditsHint}" TextWrapping="Wrap" FontSize="14" Foreground="{StaticResource Brush.TextMuted}"/>
+        </StackPanel>
+        <Button x:Name="SaveAudioButton" Width="160" Grid.Row="2" ContentTemplate="{StaticResource ActionLabel}" Content="{Binding L[C.Audio.Save]}" Command="{Binding SaveAudioCommand}"
+                Style="{StaticResource SuccessButton}" HorizontalAlignment="Right" Margin="0,12,0,0" Visibility="Collapsed" />
+    </Grid>
+    </Border>
+</UserControl>

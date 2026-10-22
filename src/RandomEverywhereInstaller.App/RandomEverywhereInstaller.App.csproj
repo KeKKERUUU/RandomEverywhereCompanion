@@ -1,0 +1,38 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net10.0-windows</TargetFramework>
+    <UseWPF>true</UseWPF>
+    <Version>1.2.5</Version>
+    <ApplicationIcon>Assets\App\app.ico</ApplicationIcon>
+    <AssemblyName>RandomAndEverywhereCompanion</AssemblyName>
+    <Product>Random &amp; Everywhere Companion</Product>
+    <ApplicationManifest>app.manifest</ApplicationManifest>
+    <RootNamespace>RandomEverywhereInstaller.App</RootNamespace>
+    <!-- The framework worker is a process payload, never a referenced .NET assembly. -->
+    <NoWarn>$(NoWarn);NU1702</NoWarn>
+    <ValidateExecutableReferencesMatchSelfContained>false</ValidateExecutableReferencesMatchSelfContained>
+  </PropertyGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\RandomEverywhereInstaller.CompanionRuntime\RandomEverywhereInstaller.CompanionRuntime.csproj" ReferenceOutputAssembly="false" GlobalPropertiesToRemove="SelfContained;PublishSingleFile;PublishReadyToRun;EnableCompressionInSingleFile;PublishTrimmed;PublishProfile" />
+    <ProjectReference Include="..\RandomEverywhereInstaller.Core\RandomEverywhereInstaller.Core.csproj" />
+    <ProjectReference Include="..\RandomEverywhereInstaller.Infrastructure\RandomEverywhereInstaller.Infrastructure.csproj" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Localization\*.json" />
+    <EmbeddedResource Include="../RandomEverywhereInstaller.CompanionRuntime/UPSTREAM-LICENSE.txt" LogicalName="CompanionPayload.UPSTREAM-LICENSE.txt" />
+    <EmbeddedResource Include="../../THIRD-PARTY-NOTICES.md" LogicalName="CompanionPayload.THIRD-PARTY-NOTICES.md" />
+    <EmbeddedResource Include="../RandomEverywhereInstaller.CompanionRuntime/Native/NOTICE.md" LogicalName="CompanionPayload.SIMCONNECT-NOTICE.md" />
+    <Resource Include="Assets\Icons\*.png" />
+    <Resource Include="Assets\Flags\*.png" />
+    <Resource Include="Assets\Header\*.jpeg" />
+    <Resource Include="Assets\App\*.ico" />
+    <Resource Include="Assets\WindowControls\*.png" />
+  </ItemGroup>
+  <Target Name="EmbedCompanionRuntime" AfterTargets="ResolveReferences" BeforeTargets="PrepareResources">
+    <ItemGroup>
+      <_CompanionPayload Include="../RandomEverywhereInstaller.CompanionRuntime/bin/$(Configuration)/net48/*.exe;../RandomEverywhereInstaller.CompanionRuntime/bin/$(Configuration)/net48/*.dll;../RandomEverywhereInstaller.CompanionRuntime/bin/$(Configuration)/net48/*.exe.config" />
+      <EmbeddedResource Include="@(_CompanionPayload)" LogicalName="CompanionPayload.%(_CompanionPayload.Filename)%(_CompanionPayload.Extension)" />
+    </ItemGroup>
+  </Target>
+</Project>

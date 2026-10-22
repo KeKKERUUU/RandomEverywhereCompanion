@@ -1,0 +1,93 @@
+{
+  "Schema": 1,
+  "Name": "Recommended",
+  "Description": "The voices, speeds, radio and options of the author of the program (selection of 2026-10-16): one voice for each actor, the intercom click and the aviation radio, the program started minimized with Microsoft Flight Simulator. The call sign of the helicopter is the airline of the aircraft.cfg of the livery.",
+  "DefaultLanguage": "EN",
+  "MasterVolume": 100,
+  "UseMissionVolumes": true,
+  "AttenCamInside": 9,
+  "AttenCamOutside": 12,
+  "BridgePack": "EN",
+  "Variety": "coherent",
+  "Names": "functions",
+  "CallSignMode": "airline",
+  "Radio": {
+    "NoiseLevel": 15,
+    "Beep": "Click",
+    "BeepLevel": 75,
+    "Tail": true,
+    "Quality": "Aviation"
+  },
+  "AudioOut": {
+    "HeadsetDevice": "",
+    "ExternalDevice": "",
+    "HeadsetLevel": 100,
+    "ExternalLevel": 100,
+    "NotifyLevel": 100
+  },
+  "CrewNames": {},
+  "StartWithSim": true,
+  "ExitWithSim": true,
+  "StartMinimized": true,
+  "ReadyAnnounce": true,
+  "AutoAudioInhibit": true,
+  "AutoIndex": true,
+  "AutoUpdateCheck": true,
+  "UpdatePack": true,
+  "UpdateWhat": "both",
+  "ShowAdvanced": false,
+  "Languages": {
+    "EN": {
+      "Actors": [
+        {
+          "Voice": "piper:en_US-ryan-high",
+          "Speed": 1
+        },
+        {
+          "Voice": "piper:en_GB-aru-medium:02",
+          "Speed": 1.2
+        },
+        {
+          "Voice": "piper:en_GB-aru-medium:01",
+          "Speed": 1.5
+        },
+        {
+          "Voice": "piper:en_US-bryce-medium",
+          "Speed": 1.3
+        },
+        {
+          "Voice": "piper:en_US-arctic-medium:awb",
+          "Speed": 1.1
+        },
+        {
+          "Voice": "piper:en_US-arctic-medium:bdl",
+          "Speed": 1.2
+        },
+        {
+          "Voice": "piper:en_US-ljspeech-high",
+          "Speed": 1
+        },
+        {
+          "Voice": "piper:en_US-l2arctic-medium:ASI",
+          "Speed": 1.4
+        },
+        {
+          "Voice": "piper:en_GB-aru-medium:12",
+          "Speed": 1.6
+        },
+        {
+          "Voice": "piper:en_GB-aru-medium:05",
+          "Speed": 1.3
+        },
+        {
+          "Voice": "piper:en_US-l2arctic-medium:ZHAA",
+          "Speed": 1
+        },
+        {
+          "Voice": "piper:en_GB-aru-medium:10",
+          "Speed": 1.2
+        }
+      ]
+    }
+  }
+}

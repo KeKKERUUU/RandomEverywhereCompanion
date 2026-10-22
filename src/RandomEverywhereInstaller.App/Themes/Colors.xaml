@@ -1,0 +1,29 @@
+<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+                    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+    <Color x:Key="Color.Window">#0C1217</Color>
+    <Color x:Key="Color.Sidebar">#141D24</Color>
+    <Color x:Key="Color.Surface">#19232B</Color>
+    <Color x:Key="Color.SurfaceRaised">#25313C</Color>
+    <Color x:Key="Color.Border">#43515D</Color>
+    <Color x:Key="Color.Accent">#72ACCD</Color>
+    <Color x:Key="Color.AccentDark">#223947</Color>
+    <Color x:Key="Color.Text">#E2E9ED</Color>
+    <Color x:Key="Color.TextMuted">#A2B2BF</Color>
+    <Color x:Key="Color.Success">#38D985</Color>
+    <Color x:Key="Color.Warning">#F3BF5B</Color>
+    <Color x:Key="Color.Error">#F46D75</Color>
+
+    <SolidColorBrush x:Key="Brush.Window" Color="{StaticResource Color.Window}" />
+    <SolidColorBrush x:Key="Brush.Sidebar" Color="{StaticResource Color.Sidebar}" />
+    <SolidColorBrush x:Key="Brush.Surface" Color="{StaticResource Color.Surface}" />
+    <SolidColorBrush x:Key="Brush.SurfaceRaised" Color="{StaticResource Color.SurfaceRaised}" />
+    <SolidColorBrush x:Key="Brush.Border" Color="{StaticResource Color.Border}" />
+    <SolidColorBrush x:Key="Brush.Accent" Color="{StaticResource Color.Accent}" />
+    <SolidColorBrush x:Key="Brush.AccentDark" Color="{StaticResource Color.AccentDark}" />
+    <SolidColorBrush x:Key="Brush.Text" Color="{StaticResource Color.Text}" />
+    <SolidColorBrush x:Key="Brush.TextMuted" Color="{StaticResource Color.TextMuted}" />
+    <SolidColorBrush x:Key="Brush.Success" Color="{StaticResource Color.Success}" />
+    <SolidColorBrush x:Key="Brush.Warning" Color="{StaticResource Color.Warning}" />
+    <SolidColorBrush x:Key="Brush.Error" Color="{StaticResource Color.Error}" />
+    <SolidColorBrush x:Key="Brush.Info" Color="#2399FF" />
+</ResourceDictionary>

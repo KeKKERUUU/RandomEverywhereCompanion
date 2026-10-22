@@ -1,0 +1,16 @@
+<Solution>
+  <Folder Name="/src/">
+    <Project Path="src/RandomEverywhereInstaller.App/RandomEverywhereInstaller.App.csproj" />
+    <Project Path="src/RandomEverywhereInstaller.Core/RandomEverywhereInstaller.Core.csproj" />
+    <Project Path="src/RandomEverywhereInstaller.Infrastructure/RandomEverywhereInstaller.Infrastructure.csproj" />
+  </Folder>
+  <Folder Name="/runtime/">
+    <Project Path="src/RandomEverywhereInstaller.CompanionRuntime/RandomEverywhereInstaller.CompanionRuntime.csproj" />
+  </Folder>
+  <Folder Name="/tests/">
+    <Project Path="tests/RandomEverywhereInstaller.UiHost/RandomEverywhereInstaller.UiHost.csproj" />
+    <Project Path="tests/RandomEverywhereInstaller.App.Tests/RandomEverywhereInstaller.App.Tests.csproj" />
+    <Project Path="tests/CompanionRuntime.Tests/CompanionRuntime.Tests.csproj" />
+    <Project Path="tests/RandomEverywhereInstaller.Tests/RandomEverywhereInstaller.Tests.csproj" />
+  </Folder>
+</Solution>

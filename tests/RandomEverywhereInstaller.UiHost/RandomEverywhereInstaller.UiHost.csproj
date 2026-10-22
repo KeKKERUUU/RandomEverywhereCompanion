@@ -1,0 +1,13 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net10.0-windows</TargetFramework>
+    <UseWPF>true</UseWPF>
+    <AssemblyName>Companion.UiFixtureHost</AssemblyName>
+  </PropertyGroup>
+  <ItemGroup>
+    <ProjectReference Include="../../src/RandomEverywhereInstaller.App/RandomEverywhereInstaller.App.csproj" />
+    <Content Include="Fixtures/package.zip.fixture" TargetPath="ui-fixture.zip" CopyToOutputDirectory="PreserveNewest" />
+    <Content Include="Fixtures/everywhere_all.json" TargetPath="everywhere_all.json" CopyToOutputDirectory="PreserveNewest" />
+  </ItemGroup>
+</Project>

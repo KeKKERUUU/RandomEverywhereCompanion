@@ -1,0 +1,1 @@
+{"macros":{"version check":[{"set":{"local":"MISSION_VERSION"},"value":"0.99634"},{"set":{"local":"DEV_VERSION"},"value":"1.3"},{"set":{"local":"DEV_TYPE"},"value":"UI FIXTURE"},{"set":{"local":"MINIMUM_VERSION"},"value":479}]}}

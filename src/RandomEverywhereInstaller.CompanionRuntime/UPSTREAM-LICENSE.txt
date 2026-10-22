@@ -1,0 +1,18 @@
+HPG Mission Companion - licence: use for everyone, everything else by consent
+
+Copyright (c) 2026 davierosoft. All rights reserved, except what this licence grants.
+
+1. Everyone may, without asking:
+   - run and use the program HPG Mission Companion (the "Software"), a build obtained from the copyright holder or built unchanged from this repository with tools/build.cmd, for any purpose;
+   - read the source code and the documents in this repository;
+   - fork the repository on GitHub, as the GitHub Terms of Service allow; a fork is for reading only and carries this same licence.
+
+2. Everything else needs the explicit written consent of the copyright holder, given for that person and that use: modifying the code or the program, building or running a modified version, copying or distributing the Software or the code (in whole or in part), publishing derivative works, sublicensing, selling, including the text tags, the protocol notes and the icon. Silence or a missing reply is not consent. Consent can be withdrawn.
+
+3. To ask for consent, open an issue in this repository or write to the author through the GitHub profile davierosoft.
+
+4. Third-party software that the Software uses or downloads (Piper, eSpeak NG, the Piper voices, the Windows voices, the HPG mission system) is not covered by this licence and keeps its own licences; see THIRD_PARTY.md. This licence gives no rights over it.
+
+5. The Software is provided "as is", without warranty of any kind. The copyright holder is not liable for any damage that comes from its use, including changes the Software makes to the files of the simulator, of the HPG packages or of the user's computer (for example the start with the simulator and the cleaning of the mission work folder, which the user starts).
+
+6. The copyright holder may replace this licence with another one for later versions; a later licence does not take away consent already given in writing.

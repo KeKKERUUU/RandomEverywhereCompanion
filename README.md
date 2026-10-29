@@ -4,9 +4,9 @@ A Windows companion for installing and updating Random & Everywhere mission pack
 
 ## Download
 
-Download Random & Everywhere Companion from the [Releases page](https://github.com/KeKKERUUU/RandomEverywhereCompanion/releases), where you’ll also find installation instructions and release notes.
+Visit the [Releases page](https://github.com/KeKKERUUU/RandomEverywhereCompanion/releases) for application downloads, installation instructions and release notes.
 
-To build the application yourself, see [Building from source](docs/BUILDING.md).
+[Getting started](#getting-started) · [Help and troubleshooting](.github/SUPPORT.md) · [Report a problem or suggest an improvement](https://github.com/KeKKERUUU/RandomEverywhereCompanion/issues/new/choose)
 
 ## Features
 
@@ -62,26 +62,21 @@ Use the application’s update controls to check for available updates. Applicat
 
 Read the release notes for compatibility requirements and known limitations. Prerelease builds are intended for testing and may require manual installation.
 
-For storage locations, supported audio formats and detailed maintenance behavior, see the [technical reference](docs/TECHNICAL.md).
-
 ## Troubleshooting
 
 - **A package is missing:** verify the selected simulator and Community folder, then review the package inventory.
 - **There is no audio:** check the selected audio mode, pack, output device, volume and simulator connection.
 - **A voice or recording is unavailable:** check that the required files are installed and review the audio diagnostics.
 - **An update or maintenance operation fails:** keep the logs and any recovery files reported by the application. Do not delete backups to dismiss an error.
-- **Your antivirus reports a warning:** retain the detection name and file SHA-256 for investigation. Do not disable protection or assume the warning is a false positive.
+- **Your antivirus reports a warning:** note the detection name, file name and application version. Do not disable protection or assume the warning is a false positive. Include the file hash if you already have it.
+
+See [Help and troubleshooting](.github/SUPPORT.md) for what to check and how to share diagnostic information safely.
 
 ## Bug reports and suggestions
 
-Open an [issue](https://github.com/KeKKERUUU/RandomEverywhereCompanion/issues) with:
+Use [Report a problem](https://github.com/KeKKERUUU/RandomEverywhereCompanion/issues/new?template=bug_report.yml) or [Suggest an improvement](https://github.com/KeKKERUUU/RandomEverywhereCompanion/issues/new?template=feature_request.yml). The forms guide you through the useful details; you do not need development tools or knowledge of the source code.
 
-- Your application, Windows and MSFS versions.
-- The steps needed to reproduce the problem.
-- What you expected and what happened instead.
-- Relevant screenshots or logs, with personal information removed.
-
-Do not attach commercial packages, credentials or personal files.
+Reports are public. Remove personal information from screenshots and logs, and do not attach commercial packages, credentials or personal files.
 
 ## Credits and third-party software
 

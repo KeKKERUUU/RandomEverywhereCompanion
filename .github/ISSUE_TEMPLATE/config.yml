@@ -1,0 +1,8 @@
+blank_issues_enabled: true
+contact_links:
+  - name: Help and troubleshooting
+    url: https://github.com/KeKKERUUU/RandomEverywhereCompanion/blob/production/.github/SUPPORT.md
+    about: Check audio, package and update problems, and learn how to share logs safely.
+  - name: Downloads and release notes
+    url: https://github.com/KeKKERUUU/RandomEverywhereCompanion/releases
+    about: Find application downloads and instructions for each release.

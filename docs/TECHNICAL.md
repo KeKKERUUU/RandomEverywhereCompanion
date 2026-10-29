@@ -1,6 +1,6 @@
 # Technical reference
 
-[Back to the README](../README.md)
+[Documentation index](README.md) · [App overview](../README.md)
 
 This reference describes public source version 1.2.5. It is intended for advanced
 configuration, troubleshooting and contributors; it does not describe unpublished

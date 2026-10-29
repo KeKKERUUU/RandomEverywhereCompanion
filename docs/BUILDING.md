@@ -1,6 +1,6 @@
 # Building and testing
 
-[Back to the README](../README.md)
+[Documentation index](README.md) · [App overview](../README.md)
 
 These instructions apply to the public version 1.2.5 source. Building an executable
 does not create a GitHub release or an installer.

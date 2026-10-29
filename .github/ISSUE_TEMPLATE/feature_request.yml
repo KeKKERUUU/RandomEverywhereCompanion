@@ -1,0 +1,28 @@
+name: Suggest an improvement
+description: Tell us how the Companion could work better for you.
+title: "[Suggestion] "
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Please check existing suggestions first. Describe the result you would like;
+        no technical design or code is required. Suggestions are public.
+  - type: textarea
+    id: need
+    attributes:
+      label: What would you like to do?
+      description: Describe the problem or inconvenience during normal use.
+    validations:
+      required: true
+  - type: textarea
+    id: improvement
+    attributes:
+      label: How could it work better?
+      description: Describe the improvement and how it would help you.
+    validations:
+      required: true
+  - type: textarea
+    id: context
+    attributes:
+      label: Examples or extra context (optional)
+      description: Screenshots can help. Remove personal information and do not attach credentials or commercial packages.

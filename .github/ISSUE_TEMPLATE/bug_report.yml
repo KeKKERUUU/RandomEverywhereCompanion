@@ -1,0 +1,71 @@
+name: Report a problem
+description: Something is not working as expected in the Companion.
+title: "[Bug] "
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thank you for reporting a problem. Please check existing reports first.
+        No development tools or source-code knowledge are needed.
+        This report is public: remove personal information from anything you share.
+  - type: input
+    id: app-version
+    attributes:
+      label: Companion version
+      description: Enter the version shown in the app or the release you downloaded. If you cannot find it, write "not sure".
+    validations:
+      required: true
+  - type: dropdown
+    id: simulator
+    attributes:
+      label: Microsoft Flight Simulator
+      options:
+        - MSFS 2020
+        - MSFS 2024
+        - Both
+        - Not applicable / not sure
+    validations:
+      required: true
+  - type: dropdown
+    id: windows
+    attributes:
+      label: Windows version
+      options:
+        - Windows 10
+        - Windows 11
+        - Other / not sure
+  - type: dropdown
+    id: audio-mode
+    attributes:
+      label: Audio mode, if relevant
+      options:
+        - Not an audio problem / not sure
+        - Recorded soundpacks
+        - Synthetic voices
+        - Both modes separately
+  - type: textarea
+    id: problem
+    attributes:
+      label: What happened, and what did you expect?
+      description: Include any error message. For audio problems, say whether preview, mission playback or both are affected.
+    validations:
+      required: true
+  - type: textarea
+    id: steps
+    attributes:
+      label: What were you doing?
+      description: List the steps if you can reproduce it. If it happened only once, describe what you remember.
+    validations:
+      required: true
+  - type: textarea
+    id: details
+    attributes:
+      label: Extra details, screenshots or logs (optional)
+      description: Relevant pack/voice names, output device, volume settings or a short log excerpt can help. Hide usernames and personal paths. Do not upload package archives, credentials or your data folder.
+  - type: checkboxes
+    id: privacy
+    attributes:
+      label: Before submitting
+      options:
+        - label: I have removed personal information and have not attached credentials or commercial packages.
+          required: true

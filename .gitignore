@@ -14,7 +14,11 @@ tmp/
 artifacts/
 publish-v*/
 TestResults/
-docs/
+# Only reviewed public documentation belongs in this source snapshot.
+/docs/*
+!/docs/README.md
+!/docs/BUILDING.md
+!/docs/TECHNICAL.md
 /design-qa.md
 
 # Private development context and local tool state.
